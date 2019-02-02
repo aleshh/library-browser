@@ -2,8 +2,23 @@ import React, { Component } from 'react'
 import ddc from './data/ddcIndex.json'
 
 class App extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      searchTerm: 'book'
+    }
+  }
+
+  searchDdc (searchTerm) {
+    ddc.forEach(entry => {
+      if (entry.description.includes(searchTerm)) {
+        console.log(entry.number + ' ' + entry.description)
+      }
+    })
+  }
+
   render () {
-    console.log(ddc[0])
+    this.searchDdc(this.state.searchTerm)
 
     return (
       <div className='App'>
