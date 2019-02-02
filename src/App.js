@@ -1,18 +1,16 @@
-import React, { Component } from 'react';
-// import customData from './data/ddcIndex.json';
+import React, { Component } from 'react'
+import ddc from './data/ddcIndex.json'
 
 class App extends Component {
-
-  render() {
-    const ddc = require('./data/ddcIndex.json');
-    console.log(ddc[0]);
+  render () {
+    console.log(ddc[0])
 
     return (
-      <div className="App">
+      <div className='App'>
         {ddc[0].number + ' ' + ddc[0].description}
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
