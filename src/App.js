@@ -2,27 +2,40 @@ import React, { Component } from 'react'
 import ddc from './data/ddcIndex.json'
 
 class App extends Component {
-  constructor (props) {
-    super(props)
-    this.state = {
-      searchTerm: 'book'
-    }
+  state = {
+    tmp: 'test',
+    searchResults: []
   }
 
-  searchDdc (searchTerm) {
-    ddc.forEach(entry => {
-      if (entry.description.includes(searchTerm)) {
-        console.log(entry.number + ' ' + entry.description)
-      }
+  searchDdc = searchTerm => {
+    const results = []
+    const searchTermLc = searchTerm.toLowerCase()
+
+    if (searchTerm.length > 0) {
+      ddc.forEach(entry => {
+        if (entry.description.toLowerCase().includes(searchTermLc)) {
+          results.push(entry.number + ' ' + entry.description)
+        }
+      })
+    }
+    this.setState({
+      searchResults: results
     })
   }
 
-  render () {
-    this.searchDdc(this.state.searchTerm)
+  handleSearch = e => {
+    this.searchDdc(e.target.value)
+  }
 
+  render () {
     return (
       <div className='App'>
-        {ddc[0].number + ' ' + ddc[0].description}
+        <input type='text' name='search' onKeyUp={this.handleSearch} />
+        <div>
+          { this.state.searchResults.map(result => {
+            return <div key={result}>{result}</div>
+          })}
+        </div>
       </div>
     )
   }
