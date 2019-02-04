@@ -3,7 +3,6 @@ import ddc from './data/ddcIndex.json'
 
 class App extends Component {
   state = {
-    tmp: 'test',
     searchResults: []
   }
 
