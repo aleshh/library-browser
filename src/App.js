@@ -6,27 +6,41 @@ class App extends Component {
     searchResults: []
   }
 
-  searchDdc = searchTerm => {
+  searchDdc = (ddc, searchTerm) => {
     const results = []
     const searchTermLc = searchTerm.toLowerCase()
 
     if (searchTerm.length > 0) {
       ddc.forEach(entry => {
+        const entryToString = entry.number + ' ' + entry.description
         if (entry.description.toLowerCase().includes(searchTermLc)) {
-          results.push(entry.number + ' ' + entry.description)
+          results.push([entryToString])
+        }
+        if (entry.subordinates != null) {
+          let subordinates = this.searchDdc(entry.subordinates, searchTerm)
+          if (subordinates) {
+            subordinates.forEach(result => {
+              result.unshift(entryToString)
+            })
+            results.push(...subordinates)
+          }
         }
       })
     }
-    this.setState({
-      searchResults: results
-    })
+    return (results.length > 0) ? results : null
+
   }
 
   handleSearch = e => {
-    this.searchDdc(e.target.value)
+    const results = this.searchDdc(ddc, e.target.value)
+    console.log('results:', results)
+    // this.setState({
+    //   searchResults: results
+    // })
   }
 
   render () {
+    console.log(this.searchDdc(ddc, 'book'))
     return (
       <div className='App'>
         <input type='text' name='search' onKeyUp={this.handleSearch} />
