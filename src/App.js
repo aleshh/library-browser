@@ -62,10 +62,9 @@ const Entry = ({entry}) => {
   const item = entry[entry.length - 1]
   const path = entry.slice(0, -1)
   return (
-    <div key={item.id}>
-      <br></br>
-      {path.map(item => (item.number + ' ' + item.description + ' > '))}
-      <h3>{item.number} {item.description}</h3>
+    <div className='results-row' key={item.id}>
+      <p className='results-path'>{path.map(item => (item.number + ' ' + item.description + ' > '))}</p>
+      <p className='results'>{item.number} {item.description}</p>
     </div>
   )
 }
