@@ -692,8 +692,7 @@
         { "id": "332.1", "number": "332.1", "description": "Banks and banking" },
         { "id": "332.3", "number": "332.3", "description": "Credit and loan institutions" },
         { "id": "332.4", "number": "332.4", "description": "Money" },
-        { "id": "332.6", "number": "332.6", "description": "Investment and investments" },
-        { "id": "332.6", "number": "332.6", "description": "Stocks" },
+        { "id": "332.6", "number": "332.6", "description": "Stocks, Investment and investments" },
         { "id": "332.7", "number": "332.7", "description": "Credit" },
         { "id": "332.8", "number": "332.8", "description": "Interest and discount" }
       ]},
