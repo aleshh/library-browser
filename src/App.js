@@ -54,7 +54,6 @@ class App extends Component {
         }
       }
     })
-    console.log(results)
     this.setState({
       currentView: results ? results : []
     })
@@ -94,7 +93,7 @@ class App extends Component {
   }
 
   handleClick = e => {
-    console.log(e.target)
+    this.retrieveDdc(e)
   }
 
   componentDidMount () {
@@ -115,7 +114,11 @@ class App extends Component {
         </div>
         <div className='results'>
           { this.state.currentView.map(result => (
-            <Entry key={result[result.length - 1].id} entry={result} />
+            <Entry
+              key={result[result.length - 1].id}
+              entry={result}
+              handleClick={this.handleClick}
+            />
           ))}
         </div>
       </div>
@@ -125,17 +128,25 @@ class App extends Component {
 
 const entryToString = entry => (entry.number + ' ' + entry.description)
 
-const Entry = ({entry}) => {
+const Entry = ({entry, handleClick}) => {
   const item = entry[entry.length - 1]
   const path = entry.slice(0, -1)
   return (
     <div className='result-row' key={item.id}>
       <p className='result-path'>
         {path.map(item => (
-          <span key={item.id}>{item.number + ' ' + item.description}</span>
+          <span
+            key={item.id}
+            onClick={() => handleClick(item.id)}
+            className='clickable'
+          >
+            {entryToString(item)}
+          </span>
         ))}
       </p>
-      <p className='result'>{item.number} {item.description}</p>
+      <p onClick={() => handleClick(item.id)} className='result clickable'>
+        {entryToString(item)}
+      </p>
     </div>
   )
 }
