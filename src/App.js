@@ -3,7 +3,7 @@ import ddc from './data/ddcIndex.json'
 
 class App extends Component {
   state = {
-    searchResults: []
+    currentView: []
   }
 
   searchDdc = (ddc, searchTerm) => {
@@ -12,7 +12,9 @@ class App extends Component {
 
     if (searchTerm.length > 0) {
       ddc.forEach(entry => {
-        if (entry.description.toLowerCase().includes(searchTermLc)) {
+        if (entry.description.toLowerCase().includes(searchTermLc) ||
+            entry.number.includes(searchTermLc)
+          ) {
           results.push([entry])
         }
         if (entry.subordinates != null) {
@@ -32,7 +34,7 @@ class App extends Component {
   handleSearch = e => {
     const results = this.searchDdc(ddc, e.target.value)
     this.setState({
-      searchResults: results ? results : []
+      currentView: results ? results : []
     })
   }
 
@@ -41,10 +43,17 @@ class App extends Component {
       <div className='App'>
         <div className='search'>
         <label htmlFor="search">Search: </label>
-          <input autoFocus type='text' name='search' onKeyUp={this.handleSearch} />
+          <input
+            autoFocus
+            type='text'
+            name='search'
+            onKeyUp={this.handleSearch}
+          />
         </div>
         <div className='results'>
-    { this.state.searchResults.map(result => <Entry key={result[result.length - 1].id} entry={result} />)}
+          { this.state.currentView.map(result => (
+            <Entry key={result[result.length - 1].id} entry={result} />
+          ))}
         </div>
       </div>
     )
@@ -56,7 +65,9 @@ const Entry = ({entry}) => {
   const path = entry.slice(0, -1)
   return (
     <div className='result-row' key={item.id}>
-      <p className='result-path'>{path.map(item => (item.number + ' ' + item.description + ' > '))}</p>
+      <p className='result-path'>
+        {path.map(item => (item.number + ' ' + item.description + ' > '))}
+      </p>
       <p className='result'>{item.number} {item.description}</p>
     </div>
   )
