@@ -6,6 +6,55 @@ class App extends Component {
     currentView: []
   }
 
+  retrieveDdc = number => {
+    // test if number is three digits, optionally with some x's at the end
+    // should not happen: this func only gets called from inside the house
+    if (!/^\d{3}$|^\d{2}x$|^\dxx$|^x{3}$/.test(number)) {
+      console.error('retrieveDdc received something other than a 3-digit num')
+      return
+    }
+
+    let depth
+    switch (number.indexOf('x')) {
+      case 2:  depth = 2; break // thousands
+      case 1:  depth = 1; break // hundreds
+      case 0:  depth = 0; break // main classes
+      case -1: depth = 3; break // regular numbers
+      default: console.error('')  // we already checked
+    }
+
+    const results = []
+
+    // hideous tangle of nested loops. fix me! hopefully with recursion?
+    ddc.forEach(mainClass => {
+      if (depth === 0) {
+        results.push(mainClass)
+      } else {
+        if (number.charAt(0) === mainClass.number.charAt(0)) {
+          mainClass.subordinates.forEach(hundredsClass => {
+            if (depth === 1) {
+              results.push(hundredsClass)
+            } else {
+              if (number.charAt(1) === hundredsClass.number.charAt(1)) {
+                hundredsClass.subordinates.forEach(thousandsClass => {
+                  if (depth === 2) {
+                    results.push(thousandsClass)
+                  } else {
+                    if (number.charAt(2) === thousandsClass.number.charAt(2)) {
+                      thousandsClass.subordinates
+                        .forEach(number => results.push(number))
+                    }
+                  }
+                })
+              }
+            }
+          })
+        }
+      }
+    })
+    console.log('results:', results)
+  }
+
   searchDdc = (searchTerm, index = ddc) => {
     const results = []
     const searchTermLc = searchTerm.toLowerCase()
@@ -42,11 +91,11 @@ class App extends Component {
   }
 
   componentDidMount () {
-    const results = this.searchDdc('book')
-    this.setState({
-      currentView: results
-    })
-
+    this.retrieveDdc("001")
+    // const results = this.searchDdc('book')
+    // this.setState({
+    //   currentView: results
+    // })
   }
 
   render () {
