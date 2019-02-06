@@ -12,8 +12,6 @@ class App extends Component {
 
     if (searchTerm.length > 0) {
       ddc.forEach(entry => {
-        // const entryToString = entry.number + ' ' + entry.description
-        // const entryToString = entry.id
         if (entry.description.toLowerCase().includes(searchTermLc)) {
           results.push([entry])
         }
@@ -31,13 +29,6 @@ class App extends Component {
     return (results.length > 0) ? results : null
   }
 
-  componentDidMount () {
-    const results = this.searchDdc(ddc, 'book')
-    this.setState({
-      searchResults: results
-    })
-  }
-
   handleSearch = e => {
     const results = this.searchDdc(ddc, e.target.value)
     this.setState({
@@ -46,11 +37,13 @@ class App extends Component {
   }
 
   render () {
-    console.log(this.state.searchResults)
     return (
       <div className='App'>
-        <input type='text' name='search' onKeyUp={this.handleSearch} />
-        <div>
+        <div className='search'>
+        <label htmlFor="search">Search: </label>
+          <input autoFocus type='text' name='search' onKeyUp={this.handleSearch} />
+        </div>
+        <div className='results'>
     { this.state.searchResults.map(result => <Entry key={result[result.length - 1].id} entry={result} />)}
         </div>
       </div>
@@ -62,9 +55,9 @@ const Entry = ({entry}) => {
   const item = entry[entry.length - 1]
   const path = entry.slice(0, -1)
   return (
-    <div className='results-row' key={item.id}>
-      <p className='results-path'>{path.map(item => (item.number + ' ' + item.description + ' > '))}</p>
-      <p className='results'>{item.number} {item.description}</p>
+    <div className='result-row' key={item.id}>
+      <p className='result-path'>{path.map(item => (item.number + ' ' + item.description + ' > '))}</p>
+      <p className='result'>{item.number} {item.description}</p>
     </div>
   )
 }

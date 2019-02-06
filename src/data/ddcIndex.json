@@ -1366,8 +1366,6 @@
         { "id": "591.3", "number": "591.3", "description": "Development and maturation of animals" },
         { "id": "591.4", "number": "591.4", "description": "Anatomy and morphology of animals" },
         { "id": "591.5", "number": "591.5", "description": "Ecology of animals" },
-        { "id": "591.4", "number": "591.4", "description": "Anatomy and morphology" },
-        { "id": "591.5", "number": "591.5", "description": "Ecology" },
         { "id": "591.6", "number": "591.6", "description": "Economic biology" },
         { "id": "591.8", "number": "591.8", "description": "Tissue, cellular, molecular zoology" },
         { "id": "591.9", "number": "591.9", "description": "Geographic treatment of animals" }

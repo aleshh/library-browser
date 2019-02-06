@@ -5,7 +5,9 @@ $background-color: #fee;
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Oxygen', sans-serif;}
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+}
 
 *, *:before, *:after {
     box-sizing: border-box;
@@ -16,16 +18,33 @@ a {
     color: blue;
 }
 
-.results-row {
-    border-top: 1px solid gray;
+.search {
+    padding: 13px 25px;
+    background-color: #ddd;
+    border-bottom: 1px solid gray;
+    input[type=text] {
+        background-color: #ddd;
+        font-size: 18px;
+        border: none;
+        border-bottom: 2px solid black;
+        padding: 5px 8px;
+    }
+}
+input[type=text]:focus {
+    outline: none;
+    background-color: #ccc;
+    border-radius: 5px 5px 0 0;
+}
+
+.result-row {
+    border-bottom: 1px solid gray;
     padding: 5px 25px;
 }
-.results-row:last-child {
-    border-bottom: 1px solid gray;
+
+.result-path {
+    font-size: 12px;
 }
-.results-path {
-    font-size: 11px;
-}
-.results {
-    font-size: 16px;
+
+.result {
+    font-size: 18px;
 }
