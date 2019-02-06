@@ -144,8 +144,16 @@ const Entry = ({entry, handleClick}) => {
           </span>
         ))}
       </p>
-      <p onClick={() => handleClick(item.id)} className='result clickable'>
+      <p
+        onClick={() => {
+          if (item.subordinates) {
+            handleClick(item.id)
+          }
+        }}
+        className='result clickable'
+      >
         {entryToString(item)}
+        {item.subordinates ? ' >' : ''}
       </p>
     </div>
   )

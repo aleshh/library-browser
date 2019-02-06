@@ -239,14 +239,14 @@
       { "id": "149", "number": "149", "description": "Other philosophical systems" }
     ]},
     { "id": "15x", "number": "150", "description": "Psychology", "subordinates": [
-      { "id": "150", "number": "150", "description": "Psychology" },
-      { "id": "150.1", "number": "150.1", "description": "Philosophy and theory", "subordinates": [
+      { "id": "150", "number": "150", "description": "Psychology", "subordinates": [
+        { "id": "150.1", "number": "150.1", "description": "Philosophy and theory" },
         { "id": "150.8", "number": "150.8", "description": "History and description with respect to kinds of persons" },
         { "id": "150.9", "number": "150.9", "description": "Historical, geographic, persons treatment" }
       ]},
       { "id": "151", "number": "151", "description": "" },
-      { "id": "152", "number": "152", "description": "Perception, movement, emotions, drives" },
-      { "id": "152.1", "number": "152.1", "description": "Sensory perception", "subordinates": [
+      { "id": "152", "number": "152", "description": "Perception, movement, emotions, drives", "subordinates": [
+        { "id": "152.1", "number": "152.1", "description": "Sensory perception" },
         { "id": "152.3", "number": "152.3", "description": "Movements and motor functions" },
         { "id": "152.4", "number": "152.4", "description": "Emotions and feelings" },
         { "id": "152.5", "number": "152.5", "description": "Physiological drives" },
@@ -344,10 +344,9 @@
   ]},
   { "id": "2xx", "number": "200", "description": "Religion", "subordinates": [
     { "id": "20x", "number": "200", "description": "Generalities", "subordinates": [
-      { "id": "200.1", "number": "200.1", "description": "Philosophy and theory of religion", "subordinates": [
-        { "id": "200.8", "number": "200.8", "description": "Religion with respect to kinds of persons" },
-        { "id": "200.9", "number": "200.9", "description": "Historical, geographic, persons treatment of religion" }
-      ]},
+      { "id": "200.1", "number": "200.1", "description": "Philosophy and theory of religion" },
+      { "id": "200.8", "number": "200.8", "description": "Religion with respect to kinds of persons" },
+      { "id": "200.9", "number": "200.9", "description": "Historical, geographic, persons treatment of religion" },
       { "id": "201", "number": "201", "description": "Philosophy of Christianity" },
       { "id": "202", "number": "202", "description": "Miscellany of Christianity" },
       { "id": "203", "number": "203", "description": "Dictionaries of Christianity" },
