@@ -28,21 +28,23 @@ class App extends Component {
     // hideous tangle of nested loops. fix me! hopefully with recursion?
     ddc.forEach(mainClass => {
       if (depth === 0) {
-        results.push(mainClass)
+        results.push([mainClass])
       } else {
         if (number.charAt(0) === mainClass.number.charAt(0)) {
           mainClass.subordinates.forEach(hundredsClass => {
             if (depth === 1) {
-              results.push(hundredsClass)
+              results.push([mainClass, hundredsClass])
             } else {
               if (number.charAt(1) === hundredsClass.number.charAt(1)) {
                 hundredsClass.subordinates.forEach(thousandsClass => {
                   if (depth === 2) {
-                    results.push(thousandsClass)
+                    results.push([mainClass, hundredsClass, thousandsClass])
                   } else {
                     if (number.charAt(2) === thousandsClass.number.charAt(2)) {
                       thousandsClass.subordinates
-                        .forEach(number => results.push(number))
+                        .forEach(number => results.push(
+                          [mainClass, hundredsClass, thousandsClass, number]
+                          ))
                     }
                   }
                 })
@@ -52,7 +54,10 @@ class App extends Component {
         }
       }
     })
-    console.log('results:', results)
+    console.log(results)
+    this.setState({
+      currentView: results ? results : []
+    })
   }
 
   searchDdc = (searchTerm, index = ddc) => {
@@ -82,20 +87,18 @@ class App extends Component {
 
   handleSearch = e => {
     const results = this.searchDdc(e.target.value)
+    console.log(results)
     this.setState({
       currentView: results ? results : []
     })
   }
+
   handleClick = e => {
     console.log(e.target)
   }
 
   componentDidMount () {
-    this.retrieveDdc("001")
-    // const results = this.searchDdc('book')
-    // this.setState({
-    //   currentView: results
-    // })
+    this.retrieveDdc("xxx")
   }
 
   render () {
@@ -119,6 +122,8 @@ class App extends Component {
     )
   }
 }
+
+const entryToString = entry => (entry.number + ' ' + entry.description)
 
 const Entry = ({entry}) => {
   const item = entry[entry.length - 1]
