@@ -6,19 +6,19 @@ class App extends Component {
     currentView: []
   }
 
-  searchDdc = (ddc, searchTerm) => {
+  searchDdc = (searchTerm, index = ddc) => {
     const results = []
     const searchTermLc = searchTerm.toLowerCase()
 
     if (searchTerm.length > 0) {
-      ddc.forEach(entry => {
+      index.forEach(entry => {
         if (entry.description.toLowerCase().includes(searchTermLc) ||
             entry.number.includes(searchTermLc)
           ) {
           results.push([entry])
         }
         if (entry.subordinates != null) {
-          let subordinates = this.searchDdc(entry.subordinates, searchTerm)
+          let subordinates = this.searchDdc(searchTerm, entry.subordinates)
           if (subordinates) {
             subordinates.forEach(result => {
               result.unshift(entry)
@@ -32,10 +32,21 @@ class App extends Component {
   }
 
   handleSearch = e => {
-    const results = this.searchDdc(ddc, e.target.value)
+    const results = this.searchDdc(e.target.value)
     this.setState({
       currentView: results ? results : []
     })
+  }
+  handleClick = e => {
+    console.log(e.target)
+  }
+
+  componentDidMount () {
+    const results = this.searchDdc('book')
+    this.setState({
+      currentView: results
+    })
+
   }
 
   render () {
@@ -66,7 +77,9 @@ const Entry = ({entry}) => {
   return (
     <div className='result-row' key={item.id}>
       <p className='result-path'>
-        {path.map(item => (item.number + ' ' + item.description + ' > '))}
+        {path.map(item => (
+          <span key={item.id}>{item.number + ' ' + item.description}</span>
+        ))}
       </p>
       <p className='result'>{item.number} {item.description}</p>
     </div>

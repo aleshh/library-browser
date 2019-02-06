@@ -42,7 +42,13 @@ input[type=text]:focus {
 }
 
 .result-path {
-    font-size: 12px;
+    span {
+        font-size: 12px;
+        background-color: #eee;
+        border-radius: 3px;
+        padding: 1px 5px;
+        margin-right: 5px;
+    }
 }
 
 .result {
