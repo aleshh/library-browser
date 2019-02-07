@@ -140,13 +140,13 @@ class App extends Component {
           />
         </div>
         <div className='results'>
-          { this.state.currentView.map((result, id) => {
-            console.log(id)
+          { this.state.currentView.map((result, i) => {
+            const entryId = result[result.length - 1].id
             return (
               <Entry
-                key={result[result.length - 1].id}
+                key={entryId}
                 entry={result}
-                showHome={(id === 0)}
+                showHome={(i === 0 && entryId != '0xx' )}
                 handleClick={this.handleClick}
               />
             )
