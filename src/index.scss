@@ -23,6 +23,10 @@ a {
     color: blue;
 }
 
+.clickable:hover {
+    text-decoration: underline !important;
+}
+
 .search {
     padding: 13px 25px;
     background-color: #ddd;
@@ -42,11 +46,11 @@ input[type=text]:focus {
 }
 
 .result-row {
-    border-bottom: 1px solid gray;
     padding: 5px 25px;
 }
 
 .result-path {
+    margin-bottom: 10px;
     span {
         font-size: 12px;
         background-color: #eee;
@@ -62,7 +66,9 @@ input[type=text]:focus {
 
 .result svg {
     position: relative;
+    height: 24px;
     top: 4px;
+    margin-top: -6px;
 }
 
 .home svg {
