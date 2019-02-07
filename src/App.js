@@ -54,8 +54,9 @@ class App extends Component {
         }
       }
     })
+    this.removeDuplicateHeadersFromResults(results)
     this.setState({
-      currentView: results ? results : []
+      currentView: this.removeDuplicateHeadersFromResults(results)
     })
   }
 
@@ -81,12 +82,34 @@ class App extends Component {
         }
       })
     }
-    return (results.length > 0) ? results : null
+    return (results.length > 0) ?
+      this.removeDuplicateHeadersFromResults(results) : null
+  }
+
+  // searchDdc and retrieveDdc each produce an array of arrays where the last
+  // element in each inner array is the result, the previous elements are the
+  // path. This removes the path elements (headings) that are in the previous
+  // entry
+  removeDuplicateHeadersFromResults(results) {
+    const filteredResults = [results[0]]
+
+    for (let i = 1; i < results.length; i++) {
+      const filteredElement = results[i].filter(element => {
+        // return true we should keep the element
+        // look at the previous element and see if there are any matching id's
+        const matched = results[i - 1].filter(previousElement => {
+          return (previousElement.id === element.id)
+        })
+
+        return (!matched.length > 0) ? true : false
+      })
+      filteredResults.push(filteredElement)
+    }
+    return filteredResults
   }
 
   handleSearch = e => {
     const results = this.searchDdc(e.target.value)
-    console.log(results)
     this.setState({
       currentView: results ? results : []
     })
@@ -97,7 +120,11 @@ class App extends Component {
   }
 
   componentDidMount () {
-    this.retrieveDdc("xxx")
+    // this.retrieveDdc("xxx")
+    const results = this.searchDdc('book')
+    this.setState({
+      currentView: results ? results : []
+    })
   }
 
   render () {
@@ -113,13 +140,17 @@ class App extends Component {
           />
         </div>
         <div className='results'>
-          { this.state.currentView.map(result => (
-            <Entry
-              key={result[result.length - 1].id}
-              entry={result}
-              handleClick={this.handleClick}
-            />
-          ))}
+          { this.state.currentView.map((result, id) => {
+            console.log(id)
+            return (
+              <Entry
+                key={result[result.length - 1].id}
+                entry={result}
+                showHome={(id === 0)}
+                handleClick={this.handleClick}
+              />
+            )
+          })}
         </div>
       </div>
     )
@@ -128,12 +159,22 @@ class App extends Component {
 
 const entryToString = entry => (entry.number + ' ' + entry.description)
 
-const Entry = ({entry, handleClick}) => {
+const Entry = ({entry, showHome, handleClick}) => {
   const item = entry[entry.length - 1]
   const path = entry.slice(0, -1)
   return (
     <div className='result-row' key={item.id}>
       <p className='result-path'>
+        { showHome ? (
+            <span
+            key='home'
+            onClick={() => handleClick('xxx')}
+            className='clickable'
+          >
+            Home
+          </span>
+        ) : null
+        }
         {path.map(item => (
           <span
             key={item.id}
