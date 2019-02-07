@@ -1,4 +1,5 @@
 import React from 'react'
+import { home, chevronsRight } from '../images/featherIcons'
 
 function Entry ({ entry, showHome, handleClick }) {
   const item = entry[entry.length - 1]
@@ -10,9 +11,9 @@ function Entry ({ entry, showHome, handleClick }) {
           <span
             key='home'
             onClick={() => handleClick('xxx')}
-            className='clickable'
+            className='clickable home'
           >
-            Home
+            { home }
           </span>
         ) : null
         }
@@ -32,10 +33,10 @@ function Entry ({ entry, showHome, handleClick }) {
             handleClick(item.id)
           }
         }}
-        className='result clickable'
+        className={item.subordinates ? 'result clickable' : 'result'}
       >
         {entryToString(item)}
-        {item.subordinates ? ' >' : ''}
+        {item.subordinates ? chevronsRight : ''}
       </p>
     </div>
   )

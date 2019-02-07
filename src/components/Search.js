@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Search({handleSearch}) {
+function Search ({ handleSearch }) {
   return (
     <div className='search'>
-    <label htmlFor="search">Search: </label>
+      <label htmlFor='search'>Search: </label>
       <input
         autoFocus
         type='text'

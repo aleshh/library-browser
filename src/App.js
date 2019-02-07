@@ -23,8 +23,8 @@ class App extends Component {
   }
 
   componentDidMount () {
-    const results = retrieveDdc("xxx")
-    // const results = searchDdc('book')
+    // const results = retrieveDdc("xxx")
+    const results = searchDdc('book')
     this.setState({
       currentView: results ? results : []
     })

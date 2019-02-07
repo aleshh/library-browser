@@ -20,6 +20,7 @@ a {
 
 .clickable {
     cursor: pointer;
+    color: blue;
 }
 
 .search {
@@ -57,4 +58,17 @@ input[type=text]:focus {
 
 .result {
     font-size: 18px;
+}
+
+.result svg {
+    position: relative;
+    top: 4px;
+}
+
+.home svg {
+    position: relative;
+    top: 2px;
+    height: 14px;
+    stroke-width: 2px;
+    stroke: blue;
 }
