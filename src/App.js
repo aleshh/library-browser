@@ -12,6 +12,10 @@ class App extends Component {
 
   handleSearch = e => {
     const searchTerm = e.target.value
+    if (searchTerm === '') {
+      this.componentWillMount()
+      return
+    }
     const results = searchDdc(searchTerm)
     this.setState({
       searchTerm: searchTerm,
@@ -29,10 +33,10 @@ class App extends Component {
     })
   }
 
-  componentDidMount () {
+  componentWillMount () {
     const results = retrieveDdc('xxx')
-    // const results = searchDdc('book')
     this.setState({
+      searchTerm: '',
       currentView: results ? results : []
     })
   }
