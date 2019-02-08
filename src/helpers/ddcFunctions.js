@@ -14,7 +14,7 @@ const retrieveDdc = number => {
     case 1: depth = 1; break // hundreds
     case 0: depth = 0; break // main classes
     case -1: depth = 3; break // regular numbers
-    default: console.error('')  // we already checked
+    default: console.error('') // we already checked
   }
 
   const results = []
@@ -48,7 +48,7 @@ const retrieveDdc = number => {
       }
     }
   })
-  return removeDuplicateHeadersFromResults(results)
+  return removeBlankEntries(removeDuplicateHeadersFromResults(results))
 }
 
 const searchDdc = (searchTerm, index = ddc) => {
@@ -73,30 +73,36 @@ const searchDdc = (searchTerm, index = ddc) => {
       }
     })
   }
-  return (results.length > 0) ?
-    removeDuplicateHeadersFromResults(results) : null
+  return (results.length > 0)
+    ? removeBlankEntries(removeDuplicateHeadersFromResults(results))
+    : null
 }
 
 // searchDdc and retrieveDdc each produce an array of arrays where the last
 // element in each inner array is the result, the previous elements are the
 // path. removes the path elements (headings) that are in the previous
 // entry
-const removeDuplicateHeadersFromResults = (results) => {
+const removeDuplicateHeadersFromResults = results => {
   const filteredResults = [results[0]]
 
   for (let i = 1; i < results.length; i++) {
     const filteredElement = results[i].filter(element => {
-      // return true we should keep the element
       // look at the previous element and see if there are any matching id's
-      const matched = results[i - 1].filter(previousElement => {
-        return (previousElement.id === element.id)
-      })
+      const matched = results[i - 1].filter(previousElement => (
+        (previousElement.id === element.id)
+      ))
 
-      return (!matched.length > 0) ? true : false
+      return (!matched.length > 0)
     })
     filteredResults.push(filteredElement)
   }
   return filteredResults
 }
+
+const removeBlankEntries = results => (
+  results.filter(entry => (
+    !['', 'Unassigned'].includes(entry[entry.length - 1].description)
+  ))
+)
 
 export { retrieveDdc, searchDdc }
