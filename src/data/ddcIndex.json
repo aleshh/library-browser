@@ -177,8 +177,9 @@
       { "id": "106", "number": "106", "description": "Organizations of philosophy" },
       { "id": "107", "number": "107", "description": "Education, research in philosophy" },
       { "id": "108", "number": "108", "description": "Kinds of persons in philosophy" },
-      { "id": "109", "number": "109", "description": "Historical treatment of philosophy" },
-      { "id": "109.2", "number": "109.2", "description": "Collected treatment of persons" }
+      { "id": "109", "number": "109", "description": "Historical treatment of philosophy", "subordinates": [
+        { "id": "109.2", "number": "109.2", "description": "Collected treatment of persons" }
+      ]}
     ]},
     { "id": "11x", "number": "110", "description": "Metaphysics", "subordinates": [
       { "id": "110", "number": "110", "description": "Metaphysics" },
