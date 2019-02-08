@@ -5,13 +5,16 @@ import { retrieveDdc, searchDdc } from './helpers/ddcFunctions'
 
 class App extends Component {
   state = {
+    searchTerm: '',
     currentLocation: '',
     currentView: []
   }
 
   handleSearch = e => {
-    const results = searchDdc(e.target.value)
+    const searchTerm = e.target.value
+    const results = searchDdc(searchTerm)
     this.setState({
+      searchTerm: searchTerm,
       currentLocation: '',
       currentView: results ? results : []
     })
@@ -20,14 +23,15 @@ class App extends Component {
   handleClick = number => {
     const results = retrieveDdc(number)
     this.setState({
+      searchTerm: '',
       currentLocation: number,
       currentView: results ? results : []
     })
   }
 
   componentDidMount () {
-    // const results = retrieveDdc("xxx")
-    const results = searchDdc('book')
+    const results = retrieveDdc('xxx')
+    // const results = searchDdc('book')
     this.setState({
       currentView: results ? results : []
     })
@@ -36,7 +40,7 @@ class App extends Component {
   render () {
     return (
       <div className='App'>
-        <Search handleSearch={this.handleSearch} />
+        <Search searchTerm={this.state.searchTerm} handleSearch={this.handleSearch} />
         <div className='results'>
           { this.state.currentView.map((result, i) => {
             const entryId = result[result.length - 1].id
