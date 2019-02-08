@@ -1,5 +1,5 @@
 import React from 'react'
-import { home, chevronsRight } from '../images/featherIcons'
+import { Home, ChevronsRight } from 'react-feather'
 
 function Entry ({ entry, showHome, currentLocation, handleClick }) {
   const item = entry[entry.length - 1]
@@ -15,7 +15,7 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
               onClick={() => handleClick('xxx')}
               className='clickable home'
             >
-              { home }
+              <Home />
             </span>
           ) : null
           }
@@ -39,7 +39,7 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
         className={item.subordinates ? 'result clickable' : 'result'}
       >
         {entryToString(item)}
-        {item.subordinates ? chevronsRight : ''}
+        {item.subordinates ? < ChevronsRight /> : ''}
       </p>
     </div>
   )
