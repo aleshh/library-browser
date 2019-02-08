@@ -58,6 +58,12 @@ input[type=text]:focus {
         padding: 1px 5px;
         margin-right: 5px;
     }
+    .path-separator {
+        position: relative;
+        top: 2px;
+        height: 14px;
+        width: 14px;
+    }
 }
 
 .result {
