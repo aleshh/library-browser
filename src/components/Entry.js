@@ -1,7 +1,7 @@
 import React from 'react'
 import { home, chevronsRight } from '../images/featherIcons'
 
-function Entry ({ entry, showHome, handleClick }) {
+function Entry ({ entry, showHome, currentLocation, handleClick }) {
   const item = entry[entry.length - 1]
   const path = entry.slice(0, -1)
   console.log('path:', (showHome || (path.length > 0)))
@@ -23,7 +23,7 @@ function Entry ({ entry, showHome, handleClick }) {
             <span
               key={item.id}
               onClick={() => handleClick(item.id)}
-              className='clickable'
+              className={(item.id !== currentLocation) ? 'clickable' : ''}
             >
               {entryToString(item)}
             </span>
