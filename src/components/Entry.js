@@ -31,9 +31,9 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
               >
                 {entryToString(item)}
               </span>
-              { (i !== arr.length - 1) ?
-                <ChevronRight className='path-separator' /> :
-                ''
+              { (i !== arr.length - 1)
+                ? <ChevronRight className='path-separator' />
+                : ''
               }
             </React.Fragment>
           ))}
