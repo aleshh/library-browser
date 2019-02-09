@@ -24,13 +24,23 @@ class App extends Component {
     })
   }
 
-  handleClick = number => {
-    const results = retrieveDdc(number)
-    this.setState({
-      searchTerm: '',
-      currentLocation: number,
-      currentView: results ? results : []
-    })
+  handleClick = input => {
+    // if it's a number...
+    if (/^\d{3}$|^\d{2}x$|^\dxx$|^x{3}$/.test(input)) {
+      const results = retrieveDdc(input)
+      this.setState({
+        searchTerm: '',
+        currentLocation: input,
+        currentView: results ? results : []
+      })
+    } else {
+      const results = searchDdc(input)
+      this.setState({
+        searchTerm: input,
+        currentLocation: '',
+        currentView: results ? results : []
+      })
+    }
   }
 
   componentWillMount () {

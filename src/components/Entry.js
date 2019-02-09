@@ -51,10 +51,10 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
           {item.number}
         </span>
         &nbsp;&nbsp;
-        {item.description.split(' ').map(word => {
+        {item.description.split(' ').map((word, id) => {
           if (!unclickableWords.includes(word.toLowerCase())) {
-            return (<span key={word}
-              className='clickable'
+            return (<span key={word + id}
+              className='clickable-word'
               onClick={() => handleClick(word)}
             >
               {word + ' '}

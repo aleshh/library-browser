@@ -27,6 +27,15 @@ a {
     text-decoration: underline !important;
 }
 
+.clickable-word {
+    cursor: pointer;
+}
+
+.clickable-word:hover {
+    color: blue;
+    text-decoration: underline !important;
+}
+
 .search {
     padding: 13px 25px;
     background-color: #ddd;
