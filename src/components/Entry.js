@@ -2,9 +2,9 @@ import React from 'react'
 import { Home, ChevronsRight, ChevronRight } from 'react-feather'
 
 function Entry ({ entry, showHome, currentLocation, handleClick }) {
+  const unclickableWords = ['the', '&']
   const item = entry[entry.length - 1]
   const path = entry.slice(0, -1)
-  console.log('path:', (showHome || (path.length > 0)))
   return (
     <div className='result-row' key={item.id}>
       { (showHome || (path.length > 0)) ? (
@@ -29,7 +29,7 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
                 onClick={() => handleClick(item.id)}
                 className={(item.id !== currentLocation) ? 'clickable' : ''}
               >
-                {entryToString(item)}
+                {item.number + ' ' + item.description}
               </span>
               { (i !== arr.length - 1)
                 ? <ChevronRight className='path-separator' />
@@ -39,21 +39,43 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
           ))}
         </p>
       ) : null }
-      <p
-        onClick={() => {
-          if (item.subordinates) {
-            handleClick(item.id)
+      <p>
+        <span
+          onClick={() => {
+            if (item.subordinates) {
+              handleClick(item.id)
+            }
+          }}
+          className={item.subordinates ? 'result clickable' : 'result'}
+        >
+          {item.number}
+        </span>
+        &nbsp;&nbsp;
+        {item.description.split(' ').map(word => {
+          if (!unclickableWords.includes(word.toLowerCase())) {
+            return (<span key={word}
+              className='clickable'
+              onClick={() => handleClick(word)}
+            >
+              {word + ' '}
+            </span>)
+          } else {
+            return word + ' '
           }
-        }}
-        className={item.subordinates ? 'result clickable' : 'result'}
-      >
-        {entryToString(item)}
-        {item.subordinates ? <ChevronsRight /> : ''}
+        })}
+        <span
+          onClick={() => {
+            if (item.subordinates) {
+              handleClick(item.id)
+            }
+          }}
+          className={item.subordinates ? 'result clickable' : 'result'}
+        >
+          {item.subordinates ? <ChevronsRight /> : ''}
+        </span>
       </p>
     </div>
   )
 }
-
-const entryToString = entry => (entry.number + ' ' + entry.description)
 
 export default Entry

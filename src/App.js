@@ -53,7 +53,7 @@ class App extends Component {
                 key={entryId}
                 entry={result}
                 currentLocation={this.state.currentLocation}
-                showHome={(i === 0 && entryId != '0xx' )}
+                showHome={(i === 0 && entryId !== '0xx' )}
                 handleClick={this.handleClick}
               />
             )
