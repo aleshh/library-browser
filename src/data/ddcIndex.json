@@ -1,6 +1,6 @@
 [
   { "id": "0xx", "number": "000", "description": "Generalities", "subordinates": [
-    { "id": "00x", "number": "000", "description": "Generalities & computer science", "subordinates": [
+    { "id": "00x", "number": "000", "description": "Generalities and computer science", "subordinates": [
       { "id": "001", "number": "001", "description": "Knowledge", "subordinates": [
         { "id": "001.1", "number": "001.1", "description": "Intellectual Life" },
         { "id": "001.2", "number": "001.2", "description": "Scholarship and Learning" },
@@ -47,8 +47,8 @@
       { "id": "018", "number": "018", "description": "Catalogs arranged by author and date" },
       { "id": "019", "number": "019", "description": "Dictionary catalogs" }
     ]},
-    { "id": "02x", "number": "020", "description": "Library & information sciences", "subordinates": [
-      { "id": "020", "number": "020", "description": "Library & information sciences" },
+    { "id": "02x", "number": "020", "description": "Library and information sciences", "subordinates": [
+      { "id": "020", "number": "020", "description": "Library and information sciences" },
       { "id": "021", "number": "021", "description": "Relationships of libraries, archives, information centers", "subordinates": [
         { "id": "021.2", "number": "021.2", "description": "Relationships with the community" },
         { "id": "021.6", "number": "021.6", "description": "Cooperation and networks" },
@@ -88,14 +88,14 @@
       { "id": "033", "number": "033", "description": "In other Germanic languages" },
       { "id": "034", "number": "034", "description": "In French,  Provençal,  Catalon" },
       { "id": "035", "number": "035", "description": "In Italian, Romanian, Rhaeto-Romanic" },
-      { "id": "036", "number": "036", "description": "In Spanish & Portuguese" },
+      { "id": "036", "number": "036", "description": "In Spanish and Portuguese" },
       { "id": "037", "number": "037", "description": "In Slavic Languages" },
       { "id": "038", "number": "038", "description": "In Scandinavian languages" },
       { "id": "039", "number": "039", "description": "In other languages" }
     ]},
     { "id": "04x", "number": "040", "description": "Unassigned" },
-    { "id": "05x", "number": "050", "description": "General serials & their indexes", "subordinates": [
-      { "id": "050", "number": "050", "description": "General serials & their indexes", "subordinates": [
+    { "id": "05x", "number": "050", "description": "General serials and their indexes", "subordinates": [
+      { "id": "050", "number": "050", "description": "General serials and their indexes", "subordinates": [
         { "id": "050.9", "number": "050.9", "description": "Historical, geographic, persons treatment" }
       ]},
       { "id": "051", "number": "051", "description": "American" },
@@ -103,22 +103,22 @@
       { "id": "053", "number": "053", "description": "In other Germanic languages" },
       { "id": "054", "number": "054", "description": "In French, Provençal, Catalon" },
       { "id": "055", "number": "055", "description": "In Italian, Romanian, Rhaeto-Romanic" },
-      { "id": "056", "number": "056", "description": "In Spanish & Portuguese" },
+      { "id": "056", "number": "056", "description": "In Spanish and Portuguese" },
       { "id": "057", "number": "057", "description": "In Slavic Languages" },
       { "id": "058", "number": "058", "description": "In Scandinavian languages" },
       { "id": "059", "number": "059", "description": "In other languages" }
     ]},
-    { "id": "06x", "number": "060", "description": "General organizations & museology", "subordinates": [
-      { "id": "060", "number": "060", "description": "General organizations & museology", "subordinates": [
+    { "id": "06x", "number": "060", "description": "General organizations and museology", "subordinates": [
+      { "id": "060", "number": "060", "description": "General organizations and museology", "subordinates": [
         { "id": "060.4", "number": "060.4", "description": "General rules of order (Parliamentary procedure)" },
         { "id": "060.9", "number": "060.9", "description": "Historical and persons treatment" }
       ]},
       { "id": "061", "number": "061", "description": "In North America" },
       { "id": "062", "number": "062", "description": "In British Isles; In England" },
       { "id": "063", "number": "063", "description": "In central Europe; In Germany" },
-      { "id": "064", "number": "064", "description": "In France & Monaco" },
-      { "id": "065", "number": "065", "description": "In Italy & adjacent territories" },
-      { "id": "066", "number": "066", "description": "In Iberian Peninsula & adjacent islands" },
+      { "id": "064", "number": "064", "description": "In France and Monaco" },
+      { "id": "065", "number": "065", "description": "In Italy and adjacent territories" },
+      { "id": "066", "number": "066", "description": "In Iberian Peninsula and adjacent islands" },
       { "id": "067", "number": "067", "description": "In eastern Europe; In Soviet Union" },
       { "id": "068", "number": "068", "description": "In other areas" },
       { "id": "069", "number": "069", "description": "Museology (Museum science)" }
@@ -133,9 +133,9 @@
       { "id": "071", "number": "071", "description": "In North America" },
       { "id": "072", "number": "072", "description": "In British Isles; In England" },
       { "id": "073", "number": "073", "description": "In central Europe; In Germany" },
-      { "id": "074", "number": "074", "description": "In France & Monaco" },
-      { "id": "075", "number": "075", "description": "In Italy & adjacent territories" },
-      { "id": "076", "number": "076", "description": "In Iberian Peninsula & adjacent islands" },
+      { "id": "074", "number": "074", "description": "In France and Monaco" },
+      { "id": "075", "number": "075", "description": "In Italy and adjacent territories" },
+      { "id": "076", "number": "076", "description": "In Iberian Peninsula and adjacent islands" },
       { "id": "077", "number": "077", "description": "In eastern Europe; In Soviet Union" },
       { "id": "078", "number": "078", "description": "In Scandinavia" },
       { "id": "079", "number": "079", "description": "In other areas" }
@@ -149,12 +149,12 @@
       { "id": "083", "number": "083", "description": "In other Germanic languages" },
       { "id": "084", "number": "084", "description": "In French, Provençal, Catalon" },
       { "id": "085", "number": "085", "description": "In Italian, Romanian, Rhaeto-Romanic" },
-      { "id": "086", "number": "086", "description": "In Spanish & Portuguese" },
+      { "id": "086", "number": "086", "description": "In Spanish and Portuguese" },
       { "id": "087", "number": "087", "description": "In Slavic Languages" },
       { "id": "088", "number": "088", "description": "In Scandinavian languages" },
       { "id": "089", "number": "089", "description": "In other languages" }
     ]},
-    { "id": "09x", "number": "090", "description": "Manuscripts & rare books", "subordinates": [
+    { "id": "09x", "number": "090", "description": "Manuscripts and rare books", "subordinates": [
       { "id": "090", "number": "090", "description": "Manuscripts and rare books" },
       { "id": "091", "number": "091", "description": "Manuscripts" },
       { "id": "092", "number": "092", "description": "Block books" },
@@ -190,20 +190,20 @@
       { "id": "115", "number": "115", "description": "Time" },
       { "id": "116", "number": "116", "description": "Change" },
       { "id": "117", "number": "117", "description": "Structure" },
-      { "id": "118", "number": "118", "description": "Force & energy" },
-      { "id": "119", "number": "119", "description": "Number & quantity" }
+      { "id": "118", "number": "118", "description": "Force and energy" },
+      { "id": "119", "number": "119", "description": "Number and quantity" }
     ]},
     { "id": "12x", "number": "120", "description": "Epistemology, causation, humankind", "subordinates": [
       { "id": "120", "number": "120", "description": "Epistemology, causation, humankind" },
       { "id": "121", "number": "121", "description": "Epistemology" },
       { "id": "122", "number": "122", "description": "Causation" },
-      { "id": "123", "number": "123", "description": "Determinism & indeterminism" },
+      { "id": "123", "number": "123", "description": "Determinism and indeterminism" },
       { "id": "124", "number": "124", "description": "Teleogy" },
       { "id": "125", "number": "125", "description": "" },
       { "id": "126", "number": "126", "description": "The self" },
-      { "id": "127", "number": "127", "description": "The unconscious & the subconscious" },
+      { "id": "127", "number": "127", "description": "The unconscious and the subconscious" },
       { "id": "128", "number": "128", "description": "Humankind" },
-      { "id": "129", "number": "129", "description": "Origin & destiny of individual souls" }
+      { "id": "129", "number": "129", "description": "Origin and destiny of individual souls" }
     ]},
     { "id": "13x", "number": "130", "description": "Paranormal phenomena, Occult", "subordinates": [
       { "id": "130", "number": "130", "description": "Paranormal phenomena", "subordinates": [
@@ -211,7 +211,7 @@
       ]},
       { "id": "131", "number": "131", "description": "Occult methods for achieving well-being" },
       { "id": "132", "number": "132", "description": "" },
-      { "id": "133", "number": "133", "description": "Parapsychology & occultism", "subordinates": [
+      { "id": "133", "number": "133", "description": "Parapsychology and occultism", "subordinates": [
         { "id": "133.1", "number": "133.1", "description": "Apparitions" },
         { "id": "133.3", "number": "133.3", "description": "Divinatory arts" },
         { "id": "133.4", "number": "133.4", "description": "Demonology and witchcraft" },
@@ -221,7 +221,7 @@
         { "id": "133.9", "number": "133.9", "description": "Spiritualism" }
       ]},
       { "id": "134", "number": "134", "description": "" },
-      { "id": "135", "number": "135", "description": "Dreams & mysteries" },
+      { "id": "135", "number": "135", "description": "Dreams and mysteries" },
       { "id": "136", "number": "136", "description": "" },
       { "id": "137", "number": "137", "description": "Divinatory graphology" },
       { "id": "138", "number": "138", "description": "Physiognomy" },
@@ -229,13 +229,13 @@
     ]},
     { "id": "14x", "number": "140", "description": "Specific philosophical schools", "subordinates": [
       { "id": "140", "number": "140", "description": "Specific philosophical schools" },
-      { "id": "141", "number": "141", "description": "Idealism & related systems" },
+      { "id": "141", "number": "141", "description": "Idealism and related systems" },
       { "id": "142", "number": "142", "description": "Critical philosophy" },
-      { "id": "143", "number": "143", "description": "Intuitionism & Bergsonism" },
-      { "id": "144", "number": "144", "description": "Humanism & related systems" },
+      { "id": "143", "number": "143", "description": "Intuitionism and Bergsonism" },
+      { "id": "144", "number": "144", "description": "Humanism and related systems" },
       { "id": "145", "number": "145", "description": "Sensationalism" },
-      { "id": "146", "number": "146", "description": "Naturalism & related systems" },
-      { "id": "147", "number": "147", "description": "Pantheism & related systems" },
+      { "id": "146", "number": "146", "description": "Naturalism and related systems" },
+      { "id": "147", "number": "147", "description": "Pantheism and related systems" },
       { "id": "148", "number": "148", "description": "Liberalism, eclecticism, traditionalism" },
       { "id": "149", "number": "149", "description": "Other philosophical systems" }
     ]},
@@ -253,7 +253,7 @@
         { "id": "152.5", "number": "152.5", "description": "Physiological drives" },
         { "id": "152.8", "number": "152.8", "description": "Quantitative threshold, discrimination, reaction-time studies" }
       ]},
-      { "id": "153", "number": "153", "description": "Mental processes & intelligence", "subordinates": [
+      { "id": "153", "number": "153", "description": "Mental processes and intelligence", "subordinates": [
         { "id": "153.1", "number": "153.1", "description": "Memory and learning" },
         { "id": "153.2", "number": "153.2", "description": "Formation and association of ideas" },
         { "id": "153.3", "number": "153.3", "description": "Imagination and imagery" },
@@ -263,14 +263,14 @@
         { "id": "153.8", "number": "153.8", "description": "Will (Volition)" },
         { "id": "153.9", "number": "153.9", "description": "Intelligence and aptitudes" }
       ]},
-      { "id": "154", "number": "154", "description": "Subconscious & altered states", "subordinates": [
+      { "id": "154", "number": "154", "description": "Subconscious and altered states", "subordinates": [
         { "id": "154.2", "number": "154.2", "description": "The subconscious" },
         { "id": "154.3", "number": "154.3", "description": "Daydreams, fantasies, reveries" },
         { "id": "154.4", "number": "154.4", "description": "Altered states of concsiousness" },
         { "id": "154.6", "number": "154.6", "description": "Sleep phenomena" },
         { "id": "154.7", "number": "154.7", "description": "Hypnotism" }
       ]},
-      { "id": "155", "number": "155", "description": "Differential & developmental psychology", "subordinates": [
+      { "id": "155", "number": "155", "description": "Differential and developmental psychology", "subordinates": [
         { "id": "155.2", "number": "155.2", "description": "Individual psychology" },
         { "id": "155.3", "number": "155.3", "description": "Sex psychology and psychology of the sexes" },
         { "id": "155.4", "number": "155.4", "description": "Child psychology" },
@@ -294,22 +294,22 @@
       { "id": "162", "number": "162", "description": "Deduction" },
       { "id": "163", "number": "163", "description": "" },
       { "id": "164", "number": "164", "description": "" },
-      { "id": "165", "number": "165", "description": "Fallacies & sources of error" },
+      { "id": "165", "number": "165", "description": "Fallacies and sources of error" },
       { "id": "166", "number": "166", "description": "Syllogisms" },
       { "id": "167", "number": "167", "description": "Hypotheses" },
-      { "id": "168", "number": "168", "description": "Argument & persuasion" },
+      { "id": "168", "number": "168", "description": "Argument and persuasion" },
       { "id": "169", "number": "169", "description": "Analogy" }
     ]},
     { "id": "17x", "number": "170", "description": "Ethics (moral philosophy)", "subordinates": [
       { "id": "170", "number": "170", "description": "Ethics", "subordinates": [
         { "id": "170.8", "number": "170.8", "description": "History and description with respect to kinds of persons" }
       ]},
-      { "id": "171", "number": "171", "description": "Systems & doctrines" },
+      { "id": "171", "number": "171", "description": "Systems and doctrines" },
       { "id": "172", "number": "172", "description": "Political ethics" },
       { "id": "173", "number": "173", "description": "Ethics of family relationships" },
-      { "id": "174", "number": "174", "description": "Economic & professional ethics" },
-      { "id": "175", "number": "175", "description": "Ethics of recreation & leisure" },
-      { "id": "176", "number": "176", "description": "Ethics of sex & reproduction, abortion" },
+      { "id": "174", "number": "174", "description": "Economic and professional ethics" },
+      { "id": "175", "number": "175", "description": "Ethics of recreation and leisure" },
+      { "id": "176", "number": "176", "description": "Ethics of sex and reproduction, abortion" },
       { "id": "177", "number": "177", "description": "Ethics of social relations" },
       { "id": "178", "number": "178", "description": "Ethics of consumption" },
       { "id": "179", "number": "179", "description": "Other ethical norms, euthanasia" }
@@ -320,7 +320,7 @@
       ]},
       { "id": "181", "number": "181", "description": "Oriental philosophy" },
       { "id": "182", "number": "182", "description": "Pre-Socratic Greek philosophies" },
-      { "id": "183", "number": "183", "description": "Sophistic & Socratic philosophies" },
+      { "id": "183", "number": "183", "description": "Sophistic and Socratic philosophies" },
       { "id": "184", "number": "184", "description": "Platonic philosophy" },
       { "id": "185", "number": "185", "description": "Aristotelian philosophy" },
       { "id": "186", "number": "186", "description": "Skeptic and Neoplatonic philosophies" },
@@ -332,12 +332,12 @@
       { "id": "190", "number": "190", "description": "Modern Western philosophy", "subordinates": [
         { "id": "190.9", "number": "190.9", "description": "Historical and geographic treatment" }
       ]},
-      { "id": "191", "number": "191", "description": "United States & Canada" },
+      { "id": "191", "number": "191", "description": "United States and Canada" },
       { "id": "192", "number": "192", "description": "British Isles" },
-      { "id": "193", "number": "193", "description": "Germany & Austria" },
+      { "id": "193", "number": "193", "description": "Germany and Austria" },
       { "id": "194", "number": "194", "description": "France" },
       { "id": "195", "number": "195", "description": "Italy" },
-      { "id": "196", "number": "196", "description": "Spain & Portugal" },
+      { "id": "196", "number": "196", "description": "Spain and Portugal" },
       { "id": "197", "number": "197", "description": "Soviet Union" },
       { "id": "198", "number": "198", "description": "Scandinavia" },
       { "id": "199", "number": "199", "description": "Other geographical areas" }
@@ -356,7 +356,7 @@
       { "id": "206", "number": "206", "description": "Organizations of Christianity" },
       { "id": "207", "number": "207", "description": "Education, research in Christianity" },
       { "id": "208", "number": "208", "description": "Kinds of persons in Christianity" },
-      { "id": "209", "number": "209", "description": "History & geography of Christianity" }
+      { "id": "209", "number": "209", "description": "History and geography of Christianity" }
     ]},
     { "id": "21x", "number": "210", "description": "Natural theology", "subordinates": [
       { "id": "210", "number": "210", "description": "Natural theology" },
@@ -364,8 +364,8 @@
       { "id": "212", "number": "212", "description": "Existence, attributes of God" },
       { "id": "213", "number": "213", "description": "Creation" },
       { "id": "214", "number": "214", "description": "Theodicy" },
-      { "id": "215", "number": "215", "description": "Science & religion" },
-      { "id": "216", "number": "216", "description": "Good & evil" },
+      { "id": "215", "number": "215", "description": "Science and religion" },
+      { "id": "216", "number": "216", "description": "Good and evil" },
       { "id": "217", "number": "217", "description": "" },
       { "id": "218", "number": "218", "description": "Humankind" },
       { "id": "219", "number": "219", "description": "" }
@@ -386,7 +386,7 @@
       { "id": "223", "number": "223", "description": "Poetic books of Old Testament" },
       { "id": "224", "number": "224", "description": "Prophetic books of Old Testament" },
       { "id": "225", "number": "225", "description": "New Testament" },
-      { "id": "226", "number": "226", "description": "Gospels & Acts", "subordinates": [
+      { "id": "226", "number": "226", "description": "Gospels and Acts", "subordinates": [
         { "id": "226.2", "number": "226.2", "description": "Matthew" },
         { "id": "226.3", "number": "226.3", "description": "Mark" },
         { "id": "226.4", "number": "226.4", "description": "Luke" },
@@ -398,25 +398,25 @@
       ]},
       { "id": "227", "number": "227", "description": "Epistles" },
       { "id": "228", "number": "228", "description": "Revelation (Apocalypse)" },
-      { "id": "229", "number": "229", "description": "Apocrypha & pseudepigrapha" }
+      { "id": "229", "number": "229", "description": "Apocrypha and pseudepigrapha" }
     ]},
     { "id": "23x", "number": "230", "description": "Christian theology", "subordinates": [
       { "id": "230", "number": "230", "description": "Christian theology" },
       { "id": "231", "number": "231", "description": "God" },
       { "id": "231.7", "number": "231.7", "description": "Relation to the world" },
-      { "id": "232", "number": "232", "description": "Jesus Christ & his family", "subordinates": [
+      { "id": "232", "number": "232", "description": "Jesus Christ and his family", "subordinates": [
         { "id": "232.9", "number": "232.9", "description": "Family and life of Jesus" }
       ]},
       { "id": "233", "number": "233", "description": "Humankind" },
-      { "id": "234", "number": "234", "description": "Salvation (Soteriology) & grace" },
+      { "id": "234", "number": "234", "description": "Salvation (Soteriology) and grace" },
       { "id": "235", "number": "235", "description": "Spiritual beings" },
       { "id": "236", "number": "236", "description": "Eschatology" },
       { "id": "237", "number": "237", "description": "" },
-      { "id": "238", "number": "238", "description": "Creeds & catechisms" },
-      { "id": "239", "number": "239", "description": "Apologetics & polemics" }
+      { "id": "238", "number": "238", "description": "Creeds and catechisms" },
+      { "id": "239", "number": "239", "description": "Apologetics and polemics" }
     ]},
-    { "id": "24x", "number": "240", "description": "Christian moral & devotional theology", "subordinates": [
-      { "id": "240", "number": "240", "description": "Christian moral & devotional theology" },
+    { "id": "24x", "number": "240", "description": "Christian moral and devotional theology", "subordinates": [
+      { "id": "240", "number": "240", "description": "Christian moral and devotional theology" },
       { "id": "241", "number": "241", "description": "Moral theology", "subordinates": [
         { "id": "241.5", "number": "241.5", "description": "Codes of conduct" }
       ]},
@@ -425,7 +425,7 @@
       { "id": "244", "number": "244", "description": "" },
       { "id": "245", "number": "245", "description": "Texts of hymns" },
       { "id": "246", "number": "246", "description": "Use of art in Christianity" },
-      { "id": "247", "number": "247", "description": "Church furnishings & articles" },
+      { "id": "247", "number": "247", "description": "Church furnishings and articles" },
       { "id": "248", "number": "248", "description": "Christian experience, practice, life", "subordinates": [
         { "id": "248.2", "number": "248.2", "description": "Religious experience" },
         { "id": "248.3", "number": "248.3", "description": "Worship" },
@@ -434,19 +434,19 @@
       ]},
       { "id": "249", "number": "249", "description": "Christian observances in family life" }
     ]},
-    { "id": "25x", "number": "250", "description": "Christian orders & local church", "subordinates": [
-      { "id": "250", "number": "250", "description": "Christian orders & local church" },
+    { "id": "25x", "number": "250", "description": "Christian orders and local church", "subordinates": [
+      { "id": "250", "number": "250", "description": "Christian orders and local church" },
       { "id": "251", "number": "251", "description": "Preaching (Homiletics)" },
       { "id": "252", "number": "252", "description": "Texts of sermons" },
       { "id": "253", "number": "253", "description": "Pastoral office (Pastoral theology)", "subordinates": [
         { "id": "253.5", "number": "253.5", "description": "Counseling and spiritual direction" }
       ]},
-      { "id": "254", "number": "254", "description": "Parish goverment & administration", "subordinates": [
+      { "id": "254", "number": "254", "description": "Parish goverment and administration", "subordinates": [
         { "id": "254.3", "number": "254.3", "description": "Use of communications media" },
         { "id": "254.4", "number": "254.4", "description": "Public relations and publicity" },
         { "id": "254.8", "number": "254.8", "description": "Finance" }
       ]},
-      { "id": "255", "number": "255", "description": "Religious congregations & orders" },
+      { "id": "255", "number": "255", "description": "Religious congregations and orders" },
       { "id": "256", "number": "256", "description": "" },
       { "id": "257", "number": "257", "description": "" },
       { "id": "258", "number": "258", "description": "" },
@@ -467,7 +467,7 @@
       ]},
       { "id": "263", "number": "263", "description": "Times, places of religious observance" },
       { "id": "264", "number": "264", "description": "Public worship" },
-      { "id": "265", "number": "265", "description": "Sacraments, other rites & acts" },
+      { "id": "265", "number": "265", "description": "Sacraments, other rites and acts" },
       { "id": "266", "number": "266", "description": "Missions" },
       { "id": "267", "number": "267", "description": "Associations for religious work" },
       { "id": "268", "number": "268", "description": "Religious education" },
@@ -494,11 +494,11 @@
       { "id": "278", "number": "278", "description": "Christian church in South America" },
       { "id": "279", "number": "279", "description": "Christian church in other areas" }
     ]},
-    { "id": "28x", "number": "280", "description": "Christian denominations & sects", "subordinates": [
-      { "id": "280", "number": "280", "description": "Christian denominations & sects", "subordinates": [
+    { "id": "28x", "number": "280", "description": "Christian denominations and sects", "subordinates": [
+      { "id": "280", "number": "280", "description": "Christian denominations and sects", "subordinates": [
         { "id": "280.9", "number": "280.9", "description": "Eastern Orthodox churches" }
       ]},
-      { "id": "281", "number": "281", "description": "Early church & Eastern churches" },
+      { "id": "281", "number": "281", "description": "Early church and Eastern churches" },
       { "id": "282", "number": "282", "description": "Roman Catholic Church" },
       { "id": "283", "number": "283", "description": "Anglican churches" },
       { "id": "284", "number": "284", "description": "Protestants of Continental origin", "subordinates": [
@@ -516,7 +516,7 @@
         { "id": "287.9", "number": "287.9", "description": "Salvation Army; Churches uniting Methodist and other denominations" }
       ]},
       { "id": "288", "number": "288", "description": "" },
-      { "id": "289", "number": "289", "description": "Other denominations & sects", "subordinates": [
+      { "id": "289", "number": "289", "description": "Other denominations and sects", "subordinates": [
         { "id": "289.1", "number": "289.1", "description": "Unitarian and Universalist churches" },
         { "id": "289.3", "number": "289.3", "description": "Latter-Day Saints (Mormons)" },
         { "id": "289.4", "number": "289.4", "description": "Church of the New Jerusalem (Swedenborgianism)" },
@@ -526,8 +526,8 @@
         { "id": "289.9", "number": "289.9", "description": "Others" }
       ]}
     ]},
-    { "id": "29x", "number": "290", "description": "Other & comparative religions", "subordinates": [
-      { "id": "290", "number": "290", "description": "Other & comparative religions" },
+    { "id": "29x", "number": "290", "description": "Other and comparative religions", "subordinates": [
+      { "id": "290", "number": "290", "description": "Other and comparative religions" },
       { "id": "291", "number": "291", "description": "Comparative religion", "subordinates": [
         { "id": "291.1", "number": "291.1", "description": "Religious mythology, social theology, interreligious relations and attitudes" },
         { "id": "291.2", "number": "291.2", "description": "Doctrines" },
@@ -539,7 +539,7 @@
         { "id": "291.8", "number": "291.8", "description": "Sources" },
         { "id": "291.9", "number": "291.9", "description": "Sects and reform movements" }
       ]},
-      { "id": "292", "number": "292", "description": "Classical (Greek & Roman) religion" },
+      { "id": "292", "number": "292", "description": "Classical (Greek and Roman) religion" },
       { "id": "293", "number": "293", "description": "Germanic religion" },
       { "id": "294", "number": "294", "description": "Religions of Indic origin", "subordinates": [
         { "id": "294.3", "number": "294.3", "description": "Buddhism" },
@@ -556,7 +556,7 @@
         { "id": "296.7", "number": "296.7", "description": "Religious experience, life, practice" },
         { "id": "296.8", "number": "296.8", "description": "Sects and movements" }
       ]},
-      { "id": "297", "number": "297", "description": "Islam & religions originating in it" },
+      { "id": "297", "number": "297", "description": "Islam and religions originating in it" },
       { "id": "298", "number": "298", "description": "" },
       { "id": "299", "number": "299", "description": "Other religions" }
     ]}
@@ -564,7 +564,7 @@
   { "id": "3xx", "number": "300", "description": "Social Sciences", "subordinates": [
     { "id": "30x", "number": "300", "description": "Sociology and anthropology", "subordinates": [
       { "id": "300", "number": "300", "description": "Social Sciences" },
-      { "id": "301", "number": "301", "description": "Sociology & anthropology" },
+      { "id": "301", "number": "301", "description": "Sociology and anthropology" },
       { "id": "302", "number": "302", "description": "Social interaction", "subordinates": [
         { "id": "302.2", "number": "302.2", "description": "Communication" },
         { "id": "302.3", "number": "302.3", "description": "Social interaction within groups" },
@@ -592,7 +592,7 @@
         { "id": "305.8", "number": "305.8", "description": "Racial, ethnic, national groups" },
         { "id": "305.9", "number": "305.9", "description": "Occupational and miscellaneous groups" }
       ]},
-      { "id": "306", "number": "306", "description": "Culture & institutions", "subordinates": [
+      { "id": "306", "number": "306", "description": "Culture and institutions", "subordinates": [
         { "id": "306.2", "number": "306.2", "description": "Political institutions" },
         { "id": "306.3", "number": "306.3", "description": "Economic institutions" },
         { "id": "306.4", "number": "306.4", "description": "Specific types of culture" },
@@ -636,7 +636,7 @@
         { "id": "320.9", "number": "320.9", "description": "Political situation and conditions" },
         { "id": "320.971", "number": "320.971", "description": "Politics of Canada" }
       ]},
-      { "id": "321", "number": "321", "description": "Systems of governments & states", "subordinates": [
+      { "id": "321", "number": "321", "description": "Systems of governments and states", "subordinates": [
         { "id": "321.4", "number": "321.4", "description": "Pure democracy" },
         { "id": "321.5", "number": "321.5", "description": "Elitist systems" },
         { "id": "321.8", "number": "321.8", "description": "Democratic systems" },
@@ -645,7 +645,7 @@
       { "id": "322", "number": "322", "description": "Relation of state to organized groups", "subordinates": [
         { "id": "322.4", "number": "322.4", "description": "Political action groups" }
       ]},
-      { "id": "323", "number": "323", "description": "Civil & political rights", "subordinates": [
+      { "id": "323", "number": "323", "description": "Civil and political rights", "subordinates": [
         { "id": "323.1", "number": "323.1", "description": "Civil rights of non-dominant aggregates, political rights of nondominant aggregates" },
         { "id": "323.3", "number": "323.3", "description": "Civil and political rights of other social aggregates" },
         { "id": "323.4", "number": "323.4", "description": "Specific civil rights; limitation and suspension of civil rights" },
@@ -660,8 +660,8 @@
         { "id": "324.7", "number": "324.7", "description": "Conduct of election campaigns" },
         { "id": "324.9", "number": "324.9", "description": "Historical and geographic treatment of elections" }
       ]},
-      { "id": "325", "number": "325", "description": "International migration & colonization; immigration" },
-      { "id": "326", "number": "326", "description": "Slavery & emancipation" },
+      { "id": "325", "number": "325", "description": "International migration and colonization; immigration" },
+      { "id": "326", "number": "326", "description": "Slavery and emancipation" },
       { "id": "327", "number": "327", "description": "International relations", "subordinates": [
         { "id": "327.1", "number": "327.1", "description": "General topics of international relations; spies" },
         { "id": "327.2", "number": "327.2", "description": "Diplomacy" }
@@ -706,7 +706,7 @@
         { "id": "333.9", "number": "333.9", "description": "Other natural resources" }
       ]},
       { "id": "334", "number": "334", "description": "Cooperatives" },
-      { "id": "335", "number": "335", "description": "Socialism & related systems", "subordinates": [
+      { "id": "335", "number": "335", "description": "Socialism and related systems", "subordinates": [
         { "id": "335.4", "number": "335.4", "description": "Marxian systems" },
         { "id": "335.5", "number": "335.5", "description": "Democratic socialism" },
         { "id": "335.6", "number": "335.6", "description": "Fascism" }
@@ -728,7 +728,7 @@
         { "id": "383.8", "number": "383.8", "description": "Combinations, trusts" },
         { "id": "383.9", "number": "383.9", "description": "Economic development and growth" }
       ]},
-      { "id": "339", "number": "339", "description": "Macroeconomics & related topics", "subordinates": [
+      { "id": "339", "number": "339", "description": "Macroeconomics and related topics", "subordinates": [
         { "id": "339.2", "number": "339.2", "description": "Distribution of income and wealth" },
         { "id": "339.3", "number": "339.3", "description": "National product, wealth, income accounts and accounting" },
         { "id": "339.4", "number": "339.4", "description": "Factors affecting national product, wealth, income" },
@@ -750,16 +750,16 @@
         { "id": "341.6", "number": "341.6", "description": "Law of war" },
         { "id": "341.7", "number": "341.7", "description": "Law of international cooperation" }
       ]},
-      { "id": "342", "number": "342", "description": "Constitutional & administrative law" },
+      { "id": "342", "number": "342", "description": "Constitutional and administrative law" },
       { "id": "343", "number": "343", "description": "Military, tax, trade, industrial law" },
-      { "id": "344", "number": "344", "description": "Social, labor, welfare, & related law" },
+      { "id": "344", "number": "344", "description": "Social, labor, welfare, and related law" },
       { "id": "345", "number": "345", "description": "Criminal law", "subordinates": [
         { "id": "345.0971", "number": "345.0971", "description": "Criminal law in Canada" }
       ]},
       { "id": "346", "number": "346", "description": "Private law" },
-      { "id": "347", "number": "347", "description": "Civil procedure & courts" },
+      { "id": "347", "number": "347", "description": "Civil procedure and courts" },
       { "id": "348", "number": "348", "description": "Laws (Statutes), regulations, cases" },
-      { "id": "349", "number": "349", "description": "Laws of specific jurisdictions & areas" }
+      { "id": "349", "number": "349", "description": "Laws of specific jurisdictions and areas" }
     ]},
     { "id": "35x", "number": "350", "description": "Public administration", "subordinates": [
       { "id": "350", "number": "350", "description": "Public administration" },
@@ -782,7 +782,7 @@
         { "id": "352.7", "number": "352.7", "description": "Housing and public works" },
         { "id": "352.9", "number": "352.9", "description": "Miscellaneous fields" }
       ]},
-      { "id": "353", "number": "353", "description": "Public administration of U.S. federal & state governments", "subordinates": [
+      { "id": "353", "number": "353", "description": "Public administration of U.S. federal and state governments", "subordinates": [
         { "id": "353.1", "number": "353.1", "description": "Department of State" },
         { "id": "353.2", "number": "353.2", "description": "Department of the Treasury" },
         { "id": "353.3", "number": "353.3", "description": "Department of the Interior" },
@@ -806,13 +806,13 @@
         { "id": "355.7", "number": "355.7", "description": "Military installations and reservations" },
         { "id": "355.8", "number": "355.8", "description": "Military equipment and supplies (Matériel)" }
       ]},
-      { "id": "356", "number": "356", "description": "Foot forces & warfare" },
-      { "id": "357", "number": "357", "description": "Mounted forces & warfare" },
-      { "id": "358", "number": "358", "description": "Other specialized forces & services", "subordinates": [
+      { "id": "356", "number": "356", "description": "Foot forces and warfare" },
+      { "id": "357", "number": "357", "description": "Mounted forces and warfare" },
+      { "id": "358", "number": "358", "description": "Other specialized forces and services", "subordinates": [
         { "id": "358.1", "number": "358.1", "description": "Guided missile forces and warfare" },
         { "id": "358.4", "number": "358.4", "description": "Air forces and warfare" }
       ]},
-      { "id": "359", "number": "359", "description": "Sea (Naval) forces & warfare", "subordinates": [
+      { "id": "359", "number": "359", "description": "Sea (Naval) forces and warfare", "subordinates": [
         { "id": "359.1", "number": "359.1", "description": "Naval life and customs" },
         { "id": "359.2", "number": "359.2", "description": "Naval resources" },
         { "id": "359.3", "number": "359.3", "description": "Organization and personnel of naval forces" },
@@ -826,7 +826,7 @@
     ]},
     { "id": "36x", "number": "360", "description": "Social services; associations", "subordinates": [
       { "id": "360", "number": "360", "description": "Social services; association" },
-      { "id": "361", "number": "361", "description": "General social problems & welfare", "subordinates": [
+      { "id": "361", "number": "361", "description": "General social problems and welfare", "subordinates": [
         { "id": "361.1", "number": "361.1", "description": "Social problems" },
         { "id": "361.2", "number": "361.2", "description": "Social action" },
         { "id": "361.3", "number": "361.3", "description": "Social work" },
@@ -836,7 +836,7 @@
         { "id": "361.8", "number": "361.8", "description": "Community action" },
         { "id": "361.9", "number": "361.9", "description": "Historical, geographic, persons treatment" }
       ]},
-      { "id": "362", "number": "362", "description": "Social welfare problems & welfare", "subordinates": [
+      { "id": "362", "number": "362", "description": "Social welfare problems and welfare", "subordinates": [
         { "id": "362.1", "number": "362.1", "description": "Physical illness" },
         { "id": "362.2", "number": "362.2", "description": "Mental and emotional illnesses and disturbances" },
         { "id": "362.3", "number": "362.3", "description": "Mental retardation" },
@@ -847,7 +847,7 @@
         { "id": "362.8", "number": "362.8", "description": "Problems of and services to other groups; wife/spousal/aged abuse" },
         { "id": "362.9", "number": "362.9", "description": "Historical, geographic, persons treatment of social welfare problems and services" }
       ]},
-      { "id": "363", "number": "363", "description": "Other social problems & services", "subordinates": [
+      { "id": "363", "number": "363", "description": "Other social problems and services", "subordinates": [
         { "id": "363.1", "number": "363.1", "description": "Public safety programs" },
         { "id": "363.2", "number": "363.2", "description": "Policy services" },
         { "id": "363.3", "number": "363.3", "description": "Other aspects of public safety" },
@@ -867,7 +867,7 @@
         { "id": "364.8", "number": "364.8", "description": "Discharged offenders" },
         { "id": "364.9", "number": "364.9", "description": "Historical, geographic, persons treatment of crime and its alleviation" }
       ]},
-      { "id": "365", "number": "365", "description": "Penal & related institutions" },
+      { "id": "365", "number": "365", "description": "Penal and related institutions" },
       { "id": "366", "number": "366", "description": "Association" },
       { "id": "367", "number": "367", "description": "General clubs" },
       { "id": "368", "number": "368", "description": "Insurance", "subordinates": [
@@ -918,7 +918,7 @@
       { "id": "374", "number": "374", "description": "Adult edutation" },
       { "id": "375", "number": "375", "description": "Curricula" },
       { "id": "376", "number": "376", "description": "Education of women" },
-      { "id": "377", "number": "377", "description": "Schools & religion" },
+      { "id": "377", "number": "377", "description": "Schools and religion" },
       { "id": "378", "number": "378", "description": "Higher education", "subordinates": [
         { "id": "378.1", "number": "378.1", "description": "Organization and management; curriculums" },
         { "id": "378.2", "number": "378.2", "description": "Academic degrees" },
@@ -945,7 +945,7 @@
         { "id": "384.6", "number": "384.6", "description": "telephone" }
       ]},
       { "id": "385", "number": "385", "description": "Railroad transportation" },
-      { "id": "386", "number": "386", "description": "Inland waterway & ferry transportation" },
+      { "id": "386", "number": "386", "description": "Inland waterway and ferry transportation" },
       { "id": "387", "number": "387", "description": "Water, air, space transportation", "subordinates": [
         { "id": "387.1", "number": "387.1", "description": "Ports" },
         { "id": "387.2", "number": "387.2", "description": "Ships" },
@@ -959,12 +959,12 @@
         { "id": "388.4", "number": "388.4", "description": "Local transportation" },
         { "id": "388.5", "number": "388.5", "description": "Pipeline transportation" }
       ]},
-      { "id": "389", "number": "389", "description": "Metrology & standardization" }
+      { "id": "389", "number": "389", "description": "Metrology and standardization" }
     ]},
     { "id": "39x", "number": "390", "description": "Customs, etiquette, folklore", "subordinates": [
       { "id": "390", "number": "390", "description": "Customs, etiquette, folklore" },
-      { "id": "391", "number": "391", "description": "Costume & personal appearance" },
-      { "id": "392", "number": "392", "description": "Customs of life cycle & domestic life" },
+      { "id": "391", "number": "391", "description": "Costume and personal appearance" },
+      { "id": "392", "number": "392", "description": "Customs of life cycle and domestic life" },
       { "id": "393", "number": "393", "description": "Death customs" },
       { "id": "394", "number": "394", "description": "General customs", "subordinates": [
         { "id": "394.1", "number": "394.1", "description": "Eating, drinking; using drugs" },
@@ -979,23 +979,23 @@
         { "id": "398.8", "number": "398.8", "description": "Rhymes and rhyming games" },
         { "id": "398.9", "number": "398.9", "description": "Proverbs" }
       ]},
-      { "id": "399", "number": "399", "description": "Customs of war & diplomacy" }
+      { "id": "399", "number": "399", "description": "Customs of war and diplomacy" }
     ]}
   ]},
   { "id": "4xx", "number": "400", "description": "Language", "subordinates": [
     { "id": "40x", "number": "400", "description": "Generalities", "subordinates": [
       { "id": "400", "number": "400", "description": "Language" },
-      { "id": "401", "number": "401", "description": "Philosophy & theory" },
+      { "id": "401", "number": "401", "description": "Philosophy and theory" },
       { "id": "402", "number": "402", "description": "Miscellany" },
-      { "id": "403", "number": "403", "description": "Dictionaries & encyclopedias" },
+      { "id": "403", "number": "403", "description": "Dictionaries and encyclopedias" },
       { "id": "404", "number": "404", "description": "Special topics" },
       { "id": "405", "number": "405", "description": "Serial publications" },
-      { "id": "406", "number": "406", "description": "Organizations & management" },
+      { "id": "406", "number": "406", "description": "Organizations and management" },
       { "id": "407", "number": "407", "description": "Education, research, related topics" },
       { "id": "408", "number": "408", "description": "Treatment of language with respect to kinds of persons", "subordinates": [
         { "id": "408.9", "number": "408.9", "description": "Treatment of language with respect to specific racial, ethnic, national groups" }
       ]},
-      { "id": "409", "number": "409", "description": "Geographical & persons treatment" }
+      { "id": "409", "number": "409", "description": "Geographical and persons treatment" }
     ]},
     { "id": "41x", "number": "410", "description": "Linguistics", "subordinates": [
       { "id": "410", "number": "410", "description": "Linguistics" },
@@ -1005,13 +1005,13 @@
       { "id": "414", "number": "414", "description": "Phonology" },
       { "id": "415", "number": "415", "description": "Structural systems (Grammar)" },
       { "id": "416", "number": "416", "description": "" },
-      { "id": "417", "number": "417", "description": "Dialectology & historicl linguistics" },
+      { "id": "417", "number": "417", "description": "Dialectology and historicl linguistics" },
       { "id": "418", "number": "418", "description": "Standard usage; Applied linguistics" },
       { "id": "419", "number": "419", "description": "Verbal language not spoken or written" }
     ]},
-    { "id": "42x", "number": "420", "description": "English & Old English", "subordinates": [
-      { "id": "420", "number": "420", "description": "English & Old English" },
-      { "id": "421", "number": "421", "description": "English writing system & phonology" },
+    { "id": "42x", "number": "420", "description": "English and Old English", "subordinates": [
+      { "id": "420", "number": "420", "description": "English and Old English" },
+      { "id": "421", "number": "421", "description": "English writing system and phonology" },
       { "id": "422", "number": "422", "description": "English etymology, word origins" },
       { "id": "423", "number": "423", "description": "English dictionaries" },
       { "id": "424", "number": "424", "description": "" },
@@ -1023,7 +1023,7 @@
     ]},
     { "id": "43x", "number": "430", "description": "Germanic languages German", "subordinates": [
       { "id": "430", "number": "430", "description": "Germanic languages; German" },
-      { "id": "431", "number": "431", "description": "German writing system & phonology" },
+      { "id": "431", "number": "431", "description": "German writing system and phonology" },
       { "id": "432", "number": "432", "description": "German etymology" },
       { "id": "433", "number": "433", "description": "German dictionaries" },
       { "id": "434", "number": "434", "description": "" },
@@ -1035,7 +1035,7 @@
     ]},
     { "id": "44x", "number": "440", "description": "Romance languages French", "subordinates": [
       { "id": "440", "number": "440", "description": "Romance languages; French" },
-      { "id": "441", "number": "441", "description": "French writing system & phonology" },
+      { "id": "441", "number": "441", "description": "French writing system and phonology" },
       { "id": "442", "number": "442", "description": "French etymology" },
       { "id": "443", "number": "443", "description": "French dictionaries" },
       { "id": "444", "number": "444", "description": "" },
@@ -1043,11 +1043,11 @@
       { "id": "446", "number": "446", "description": "" },
       { "id": "447", "number": "447", "description": "French language variations" },
       { "id": "448", "number": "448", "description": "Standard French usage" },
-      { "id": "449", "number": "449", "description": "Provençal & Catalan" }
+      { "id": "449", "number": "449", "description": "Provençal and Catalan" }
     ]},
     { "id": "45x", "number": "450", "description": "Italian, Romanian languages", "subordinates": [
       { "id": "450", "number": "450", "description": "Italian, Romanian, Rhæto-Romanic" },
-      { "id": "451", "number": "451", "description": "Italian writing system & phonology" },
+      { "id": "451", "number": "451", "description": "Italian writing system and phonology" },
       { "id": "452", "number": "452", "description": "Italian etymology" },
       { "id": "453", "number": "453", "description": "Italian dictionaries" },
       { "id": "454", "number": "454", "description": "" },
@@ -1055,11 +1055,11 @@
       { "id": "456", "number": "456", "description": "" },
       { "id": "457", "number": "457", "description": "Italian language variations" },
       { "id": "458", "number": "458", "description": "Standard Italian usage" },
-      { "id": "459", "number": "459", "description": "Romanian & Rhæto-Romanic" }
+      { "id": "459", "number": "459", "description": "Romanian and Rhæto-Romanic" }
     ]},
-    { "id": "46x", "number": "460", "description": "Spanish & Portuguese languages", "subordinates": [
-      { "id": "460", "number": "460", "description": "Spanish & Portuguese languages" },
-      { "id": "461", "number": "461", "description": "Spanish writing system & phonology" },
+    { "id": "46x", "number": "460", "description": "Spanish and Portuguese languages", "subordinates": [
+      { "id": "460", "number": "460", "description": "Spanish and Portuguese languages" },
+      { "id": "461", "number": "461", "description": "Spanish writing system and phonology" },
       { "id": "462", "number": "462", "description": "Spanish etymology" },
       { "id": "463", "number": "463", "description": "Spanish dictionaries" },
       { "id": "464", "number": "464", "description": "" },
@@ -1071,7 +1071,7 @@
     ]},
     { "id": "47x", "number": "470", "description": "ltalic languages, Latin", "subordinates": [
       { "id": "470", "number": "470", "description": "Italic languages; Latin" },
-      { "id": "471", "number": "471", "description": "Classical Latin writing system & phonology" },
+      { "id": "471", "number": "471", "description": "Classical Latin writing system and phonology" },
       { "id": "472", "number": "472", "description": "Classical Latin etymology" },
       { "id": "473", "number": "473", "description": "Classical Latin dictionaries" },
       { "id": "474", "number": "474", "description": "" },
@@ -1083,7 +1083,7 @@
     ]},
     { "id": "48x", "number": "480", "description": "Hellenic languages, Classical Greek", "subordinates": [
       { "id": "480", "number": "480", "description": "Hellenic languages; Classical Greek" },
-      { "id": "481", "number": "481", "description": "Classical Greek writing system & phonology" },
+      { "id": "481", "number": "481", "description": "Classical Greek writing system and phonology" },
       { "id": "482", "number": "482", "description": "Classical Greek etymology" },
       { "id": "483", "number": "483", "description": "Classical Greek dictionaries" },
       { "id": "484", "number": "484", "description": "" },
@@ -1095,7 +1095,7 @@
     ]},
     { "id": "49x", "number": "490", "description": "Other languages", "subordinates": [
       { "id": "490", "number": "490", "description": "Other languages" },
-      { "id": "491", "number": "491", "description": "East Indo-European & Celtic languages", "subordinates": [
+      { "id": "491", "number": "491", "description": "East Indo-European and Celtic languages", "subordinates": [
         { "id": "491.6", "number": "491.6", "description": "Celtic languages" },
         { "id": "491.7", "number": "491.7", "description": "East Slavic languages; Russian" },
         { "id": "491.8", "number": "491.8", "description": "Slavic languages" }
@@ -1105,7 +1105,7 @@
       ]},
       { "id": "493", "number": "493", "description": "Non-Semitic Afro-Asiatic languages" },
       { "id": "494", "number": "494", "description": "Ural-Altaic, Paleosiberian, Dravidian" },
-      { "id": "495", "number": "495", "description": "Languages of East & Southeast Asia", "subordinates": [
+      { "id": "495", "number": "495", "description": "Languages of East and Southeast Asia", "subordinates": [
         { "id": "495.1", "number": "495.1", "description": "Chinese" },
         { "id": "495.6", "number": "495.6", "description": "Japanese" },
         { "id": "495.7", "number": "495.7", "description": "Korean" },
@@ -1117,21 +1117,21 @@
       { "id": "499", "number": "499", "description": "Miscellaneous languages" }
     ]}
   ]},
-  { "id": "5xx", "number": "500", "description": "Natural sciences & mathematics", "subordinates": [
+  { "id": "5xx", "number": "500", "description": "Natural sciences and mathematics", "subordinates": [
     { "id": "50x", "number": "500", "description": "Generalities", "subordinates": [
-      { "id": "500", "number": "500", "description": "Natural sciences & mathematics", "subordinates": [
+      { "id": "500", "number": "500", "description": "Natural sciences and mathematics", "subordinates": [
         { "id": "500.2", "number": "500.2", "description": "Physical sciences" },
         { "id": "500.5", "number": "500.5", "description": "Space sciences" },
         { "id": "500.8", "number": "500.8", "description": "History and description with respect to kinds of persons" }
       ]},
-      { "id": "501", "number": "501", "description": "Philosophy & theory" },
+      { "id": "501", "number": "501", "description": "Philosophy and theory" },
       { "id": "502", "number": "502", "description": "Miscellany", "subordinates": [
         { "id": "502.8", "number": "502.8", "description": "Auxiliary techniques and procedures; apparatus, equipment, materials" }
       ]},
-      { "id": "503", "number": "503", "description": "Dictionaries & encyclopedias" },
+      { "id": "503", "number": "503", "description": "Dictionaries and encyclopedias" },
       { "id": "504", "number": "504", "description": "" },
       { "id": "505", "number": "505", "description": "Serial publications" },
-      { "id": "506", "number": "506", "description": "Organizations & management" },
+      { "id": "506", "number": "506", "description": "Organizations and management" },
       { "id": "507", "number": "507", "description": "Education, research, related topics", "subordinates": [
         { "id": "507.8", "number": "507.8", "description": "Use of apparatus and equipment in study and teaching" }
       ]},
@@ -1147,7 +1147,7 @@
       { "id": "511", "number": "511", "description": "General topics", "subordinates": [
         { "id": "511.3", "number": "511.3", "description": "Mathematical (Symbolic) logic" }
       ]},
-      { "id": "512", "number": "512", "description": "Algebra & number theory", "subordinates": [
+      { "id": "512", "number": "512", "description": "Algebra and number theory", "subordinates": [
         { "id": "512.9", "number": "512.9", "description": "Foundations of algebra" },
         { "id": "513", "number": "513", "description": "Arithmetic" },
         { "id": "513.2", "number": "513.2", "description": "Specific arithmetic operations" },
@@ -1162,7 +1162,7 @@
       ]},
       { "id": "517", "number": "517", "description": "" },
       { "id": "518", "number": "518", "description": "" },
-      { "id": "519", "number": "519", "description": "Probabilities & applied mathematics", "subordinates": [
+      { "id": "519", "number": "519", "description": "Probabilities and applied mathematics", "subordinates": [
         { "id": "519.2", "number": "519.2", "description": "Probabilities" },
         { "id": "519.3", "number": "519.3", "description": "Game theory" },
         { "id": "519.4", "number": "519.4", "description": "Applied numerical analysis" },
@@ -1171,13 +1171,13 @@
         { "id": "519.8", "number": "519.8", "description": "Special topics" }
       ]}
     ]},
-    { "id": "52x", "number": "520", "description": "Astronomy & allied sciences", "subordinates": [
-      { "id": "520", "number": "520", "description": "Astronomy & allied sciences", "subordinates": [
+    { "id": "52x", "number": "520", "description": "Astronomy and allied sciences", "subordinates": [
+      { "id": "520", "number": "520", "description": "Astronomy and allied sciences", "subordinates": [
         { "id": "520.1", "number": "520.1", "description": "Philosophy and theory" }
       ]},
       { "id": "521", "number": "521", "description": "Celestial mechanics" },
       { "id": "522", "number": "522", "description": "Techniques, equipment, materials" },
-      { "id": "523", "number": "523", "description": "Specific celestial bodies & phenomena", "subordinates": [
+      { "id": "523", "number": "523", "description": "Specific celestial bodies and phenomena", "subordinates": [
         { "id": "523.1", "number": "523.1", "description": "The universe; space, galaxies, quasars" },
         { "id": "523.2", "number": "523.2", "description": "Solar system" },
         { "id": "523.3", "number": "523.3", "description": "Moon" },
@@ -1207,16 +1207,16 @@
       { "id": "531", "number": "531", "description": "Classical mechanics; Solid mechanics" },
       { "id": "532", "number": "532", "description": "Fluid mechanics; Liquid mechanics" },
       { "id": "533", "number": "533", "description": "Gas mechanics" },
-      { "id": "534", "number": "534", "description": "Sound & related vibrations", "subordinates": [
+      { "id": "534", "number": "534", "description": "Sound and related vibrations", "subordinates": [
         { "id": "534.5", "number": "534.5", "description": "Subsonic and ultrasonic vibrations" }
       ]},
-      { "id": "535", "number": "535", "description": "Light & related radiations", "subordinates": [
+      { "id": "535", "number": "535", "description": "Light and related radiations", "subordinates": [
         { "id": "535.5", "number": "535.5", "description": "Beams" },
         { "id": "535.6", "number": "535.6", "description": "Color" },
         { "id": "535.8", "number": "535.8", "description": "Spectroscopy" }
       ]},
       { "id": "536", "number": "536", "description": "Heat" },
-      { "id": "537", "number": "537", "description": "Electriticy & electronics", "subordinates": [
+      { "id": "537", "number": "537", "description": "Electriticy and electronics", "subordinates": [
         { "id": "537.5", "number": "537.5", "description": "Electronics" },
         { "id": "537.6", "number": "537.6", "description": "Electric currents (Electrodynamics) and thermoelectricity" }
       ]},
@@ -1226,12 +1226,12 @@
         { "id": "539.7", "number": "539.7", "description": "Atomic and nuclear physics" }
       ]}
     ]},
-    { "id": "54x", "number": "540", "description": "Chemistry & allied sciences", "subordinates": [
-      { "id": "540", "number": "540", "description": "Chemistry & allied sciences", "subordinates": [
+    { "id": "54x", "number": "540", "description": "Chemistry and allied sciences", "subordinates": [
+      { "id": "540", "number": "540", "description": "Chemistry and allied sciences", "subordinates": [
         { "id": "540.1", "number": "540.1", "description": "Philosophy and theory" },
         { "id": "540.2", "number": "540.2", "description": "Miscellany" }
       ]},
-      { "id": "541", "number": "541", "description": "Physical & theoretical chemistry", "subordinates": [
+      { "id": "541", "number": "541", "description": "Physical and theoretical chemistry", "subordinates": [
         { "id": "541.2", "number": "541.2", "description": "Theoretical chemistry" },
         { "id": "541.3", "number": "541.3", "description": "Physical chemistry" }
       ]},
@@ -1291,7 +1291,7 @@
       { "id": "561", "number": "561", "description": "Paleobotany" },
       { "id": "562", "number": "562", "description": "Fossil invertebrates" },
       { "id": "563", "number": "563", "description": "Fossil primitive phyla" },
-      { "id": "564", "number": "564", "description": "Fossil mollusks & related phyla" },
+      { "id": "564", "number": "564", "description": "Fossil mollusks and related phyla" },
       { "id": "565", "number": "565", "description": "Other fossil invertebrates" },
       { "id": "566", "number": "566", "description": "Fossil vertebrates" },
       { "id": "567", "number": "567", "description": "Fossil cold-blooded vertebrates", "subordinates": [
@@ -1320,7 +1320,7 @@
         { "id": "574.8", "number": "574.8", "description": "Tissue, cellular, molecular biology" },
         { "id": "574.9", "number": "574.9", "description": "Geographic treatment of organisms" }
       ]},
-      { "id": "575", "number": "575", "description": "Evolution & genetics", "subordinates": [
+      { "id": "575", "number": "575", "description": "Evolution and genetics", "subordinates": [
         { "id": "575.1", "number": "575.1", "description": "Genetics" },
         { "id": "575.2", "number": "575.2", "description": "Variation" }
       ]},
@@ -1350,7 +1350,7 @@
       { "id": "586", "number": "586", "description": "Seedless plants" },
       { "id": "587", "number": "587", "description": "Pteridophyta (Vascular seedless plants)" },
       { "id": "588", "number": "588", "description": "Bryophytes" },
-      { "id": "589", "number": "589", "description": "Thallophytes & prokaryotes", "subordinates": [
+      { "id": "589", "number": "589", "description": "Thallophytes and prokaryotes", "subordinates": [
         { "id": "589.1", "number": "589.1", "description": "Lichens" },
         { "id": "589.2", "number": "589.2", "description": "Fungi" },
         { "id": "589.3", "number": "589.3", "description": "Algae" },
@@ -1379,7 +1379,7 @@
         { "id": "593.8", "number": "593.8", "description": "Comb jellies" },
         { "id": "593.9", "number": "593.9", "description": "Echinodermata" }
       ]},
-      { "id": "594", "number": "594", "description": "Mollusks & related phyla" },
+      { "id": "594", "number": "594", "description": "Mollusks and related phyla" },
       { "id": "595", "number": "595", "description": "Other invertebrates", "subordinates": [
         { "id": "595.1", "number": "595.1", "description": "Worms and related animals" },
         { "id": "595.3", "number": "595.3", "description": "Crustaceans and chelicerates" },
@@ -1420,12 +1420,12 @@
   { "id": "6xx", "number": "600", "description": "Technology (Applied sciences)", "subordinates": [
     { "id": "60x", "number": "600", "description": "General technology", "subordinates": [
       { "id": "600", "number": "600", "description": "Technology (Applied sciences)" },
-      { "id": "601", "number": "601", "description": "Philosophy & theory" },
+      { "id": "601", "number": "601", "description": "Philosophy and theory" },
       { "id": "602", "number": "602", "description": "Miscellany", "subordinates": [
         { "id": "602.2", "number": "602.2", "description": "Illustrations" },
         { "id": "602.9", "number": "602.9", "description": "Commercial miscellany" }
       ]},
-      { "id": "603", "number": "603", "description": "Dictionaries & encyclopedias" },
+      { "id": "603", "number": "603", "description": "Dictionaries and encyclopedias" },
       { "id": "604", "number": "604", "description": "Special topics", "subordinates": [
         { "id": "604.2", "number": "604.2", "description": "Technical drawing" },
         { "id": "604.7", "number": "604.7", "description": "Hazardous materials technology" },
@@ -1434,7 +1434,7 @@
       { "id": "605", "number": "605", "description": "Serial publications" },
       { "id": "606", "number": "606", "description": "Organizations" },
       { "id": "607", "number": "607", "description": "Education, research, related topics" },
-      { "id": "608", "number": "608", "description": "Invention & patents", "subordinates": [
+      { "id": "608", "number": "608", "description": "Invention and patents", "subordinates": [
         { "id": "608.7", "number": "608.7", "description": "Historical, geographic, persons treatment" }
       ]},
       { "id": "609", "number": "609", "description": "Historical, areas, persons treatment" }
@@ -1462,11 +1462,11 @@
         { "id": "613.8", "number": "613.8", "description": "Substance abuse (Drug abuse), smoking" },
         { "id": "613.9", "number": "613.9", "description": "Birth control and sex hygiene" }
       ]},
-      { "id": "614", "number": "614", "description": "Incidence & prevention of disease", "subordinates": [
+      { "id": "614", "number": "614", "description": "Incidence and prevention of disease", "subordinates": [
         { "id": "614.4", "number": "614.4", "description": "Incidence of and public measures to prevent disease" },
         { "id": "614.5", "number": "614.5", "description": "Incidence of and public measures to prevent specific diseases and kinds of diseases" }
       ]},
-      { "id": "615", "number": "615", "description": "Pharmacology & therapeutics, prescription drugs", "subordinates": [
+      { "id": "615", "number": "615", "description": "Pharmacology and therapeutics, prescription drugs", "subordinates": [
         { "id": "615.5", "number": "615.5", "description": "Therapeutics" },
         { "id": "615.8", "number": "615.8", "description": "Specific therapies and kinds of therapies" },
         { "id": "615.9", "number": "615.9", "description": "Toxicology" }
@@ -1483,7 +1483,7 @@
         { "id": "616.9", "number": "616.9", "description": "Other diseases" },
         { "id": "616.99", "number": "616.99", "description": "Cancer" }
       ]},
-      { "id": "617", "number": "617", "description": "Surgery & related medical specialties", "subordinates": [
+      { "id": "617", "number": "617", "description": "Surgery and related medical specialties", "subordinates": [
         { "id": "617.1", "number": "617.1", "description": "Wounds and injuries" },
         { "id": "617.2", "number": "617.2", "description": "Results of injuries" },
         { "id": "617.3", "number": "617.3", "description": "Orthopedics" },
@@ -1494,7 +1494,7 @@
         { "id": "617.8", "number": "617.8", "description": "Otology and audiology" },
         { "id": "617.9", "number": "617.9", "description": "Geriatric, pediatric, military, plastic surgery, transplantation of tissue and organs, anesthesiology" }
       ]},
-      { "id": "618", "number": "618", "description": "Gynecology & other medical specialties", "subordinates": [
+      { "id": "618", "number": "618", "description": "Gynecology and other medical specialties", "subordinates": [
         { "id": "618.1", "number": "618.1", "description": "Gynecology" },
         { "id": "618.2", "number": "618.2", "description": "Obstetrics" },
         { "id": "618.3", "number": "618.3", "description": "Diseases and complications of pregnancy" },
@@ -1507,8 +1507,8 @@
       ]},
       { "id": "619", "number": "619", "description": "Experimental medicine" }
     ]},
-    { "id": "62x", "number": "620", "description": "Engineering & allied operations", "subordinates": [
-      { "id": "620", "number": "620", "description": "Engineering & allied operations", "subordinates": [
+    { "id": "62x", "number": "620", "description": "Engineering and allied operations", "subordinates": [
+      { "id": "620", "number": "620", "description": "Engineering and allied operations", "subordinates": [
         { "id": "620.1", "number": "620.1", "description": "Engineering mechanics (Applied mechanics) and materials science" },
         { "id": "620.2", "number": "620.2", "description": "Sound and related vibrations" },
         { "id": "620.3", "number": "620.3", "description": "Mechanical vibration" },
@@ -1524,8 +1524,8 @@
         { "id": "621.8", "number": "621.8", "description": "Machine engineering" },
         { "id": "621.9", "number": "621.9", "description": "Tools and fabricating equipment" }
       ]},
-      { "id": "622", "number": "622", "description": "Mining & related operations" },
-      { "id": "623", "number": "623", "description": "Military & nautical engineering", "subordinates": [
+      { "id": "622", "number": "622", "description": "Mining and related operations" },
+      { "id": "623", "number": "623", "description": "Military and nautical engineering", "subordinates": [
         { "id": "623.4", "number": "623.4", "description": "Ordnance" },
         { "id": "623.7", "number": "623.7", "description": "Vehicles" },
         { "id": "623.8", "number": "623.8", "description": "Nautical engineering and seamanship" }
@@ -1545,7 +1545,7 @@
       ]},
       { "id": "626", "number": "626", "description": "" },
       { "id": "627", "number": "627", "description": "Hydraulic engineering" },
-      { "id": "628", "number": "628", "description": "Sanitary & municipal engineering Environmental protection engineering", "subordinates": [
+      { "id": "628", "number": "628", "description": "Sanitary and municipal engineering Environmental protection engineering", "subordinates": [
         { "id": "628.1", "number": "628.1", "description": "Water supply" },
         { "id": "628.3", "number": "628.3", "description": "Sewage treatment and disposal" },
         { "id": "628.4", "number": "628.4", "description": "Waste technology, public toilets, street cleaning" },
@@ -1576,7 +1576,7 @@
         { "id": "631.8", "number": "631.8", "description": "Fertilizers and soil conditioners" }
       ]},
       { "id": "632", "number": "632", "description": "Plant injuries, diseases, pests" },
-      { "id": "633", "number": "633", "description": "Field & plantation crops", "subordinates": [
+      { "id": "633", "number": "633", "description": "Field and plantation crops", "subordinates": [
         { "id": "633.1", "number": "633.1", "description": "Cereal grains (Cereals)" },
         { "id": "633.2", "number": "633.2", "description": "Forage crops" },
         { "id": "633.3", "number": "633.3", "description": "Legumes, other forage crops" },
@@ -1601,7 +1601,7 @@
         { "id": "636.6", "number": "636.6", "description": "Birds other than poultry" },
         { "id": "636.7", "number": "636.7", "description": "Dogs" },
         { "id": "636.8", "number": "636.8", "description": "Cats" },
-        { "id": "637", "number": "637", "description": "Processing dairy & related products" },
+        { "id": "637", "number": "637", "description": "Processing dairy and related products" },
         { "id": "638", "number": "638", "description": "Insect culture, bees" }
       ]},
       { "id": "639", "number": "639", "description": "Hunting, fishing, conservation", "subordinates": [
@@ -1610,11 +1610,11 @@
         { "id": "639.9", "number": "639.9", "description": "Conservation of biological resources" }
       ]}
     ]},
-    { "id": "64x", "number": "640", "description": "Home economics & family living", "subordinates": [
-      { "id": "640", "number": "640", "description": "Home economics & family living", "subordinates": [
+    { "id": "64x", "number": "640", "description": "Home economics and family living", "subordinates": [
+      { "id": "640", "number": "640", "description": "Home economics and family living", "subordinates": [
         { "id": "640.73", "number": "640.73", "description": "Consumer education" }
       ]},
-      { "id": "641", "number": "641", "description": "Food & drink", "subordinates": [
+      { "id": "641", "number": "641", "description": "Food and drink", "subordinates": [
         { "id": "641.1", "number": "641.1", "description": "Applied nutrition" },
         { "id": "641.2", "number": "641.2", "description": "Beverages (Drinks)" },
         { "id": "641.3", "number": "641.3", "description": "Food" },
@@ -1624,8 +1624,8 @@
         { "id": "641.7", "number": "641.7", "description": "Specific cooking proceses and techniques" },
         { "id": "641.8", "number": "641.8", "description": "Cooking specific kinds of composite dishes" }
       ]},
-      { "id": "642", "number": "642", "description": "Meals & table service" },
-      { "id": "643", "number": "643", "description": "Housing & household equipment" },
+      { "id": "642", "number": "642", "description": "Meals and table service" },
+      { "id": "643", "number": "643", "description": "Housing and household equipment" },
       { "id": "644", "number": "644", "description": "Household utilities" },
       { "id": "645", "number": "645", "description": "Household furnishings" },
       { "id": "646", "number": "646", "description": "Sewing, clothing, personal living", "subordinates": [
@@ -1638,12 +1638,12 @@
         { "id": "647.9", "number": "647.9", "description": "Multiple dwellings for transients, eating and drinking places" }
       ]},
       { "id": "648", "number": "648", "description": "Housekeeping" },
-      { "id": "649", "number": "649", "description": "Child rearing & home care of sick", "subordinates": [
+      { "id": "649", "number": "649", "description": "Child rearing and home care of sick", "subordinates": [
         { "id": "649.8", "number": "649.8", "description": "Home care of sick and infirm" }
       ]}
     ]},
-    { "id": "65x", "number": "650", "description": "Management & auxiliary services", "subordinates": [
-      { "id": "650", "number": "650", "description": "Management & auxiliary services", "subordinates": [
+    { "id": "65x", "number": "650", "description": "Management and auxiliary services", "subordinates": [
+      { "id": "650", "number": "650", "description": "Management and auxiliary services", "subordinates": [
         { "id": "650.1", "number": "650.1", "description": "Personal success in business" }
       ]},
       { "id": "651", "number": "651", "description": "Office services", "subordinates": [
@@ -1670,7 +1670,7 @@
         { "id": "658.7", "number": "658.7", "description": "Management of materials" },
         { "id": "658.8", "number": "658.8", "description": "management of distribution (Marketing)" }
       ]},
-      { "id": "659", "number": "659", "description": "Advertising & public relations", "subordinates": [
+      { "id": "659", "number": "659", "description": "Advertising and public relations", "subordinates": [
         { "id": "659.1", "number": "659.1", "description": "Advertising" },
         { "id": "659.2", "number": "659.2", "description": "Public relations" }
       ]}
@@ -1688,7 +1688,7 @@
         { "id": "665.7", "number": "665.7", "description": "Natural gas and manufactured industrial gases" },
         { "id": "665.8", "number": "665.8", "description": "Other industrial gases" }
       ]},
-      { "id": "666", "number": "666", "description": "Ceramic & allied technologies" },
+      { "id": "666", "number": "666", "description": "Ceramic and allied technologies" },
       { "id": "667", "number": "667", "description": "Cleaning, color, related technologies" },
       { "id": "668", "number": "668", "description": "Technology of other organic products", "subordinates": [
         { "id": "668.4", "number": "668.4", "description": "Plastics" },
@@ -1700,7 +1700,7 @@
       { "id": "670", "number": "670", "description": "Manufacturing", "subordinates": [
         { "id": "670.4", "number": "670.4", "description": "Special topics" }
       ]},
-      { "id": "671", "number": "671", "description": "Metalworking & metal products", "subordinates": [
+      { "id": "671", "number": "671", "description": "Metalworking and metal products", "subordinates": [
         { "id": "671.2", "number": "671.2", "description": "Foundry practice (Casting)" },
         { "id": "671.3", "number": "671.3", "description": "Mechanical working and related processes" },
         { "id": "671.4", "number": "671.4", "description": "Electroforming of metals" },
@@ -1711,32 +1711,32 @@
       { "id": "672", "number": "672", "description": "Iron, steel, other iron alloys" },
       { "id": "673", "number": "673", "description": "Nonferrous metals" },
       { "id": "674", "number": "674", "description": "Lumber processing, wood products, cork" },
-      { "id": "675", "number": "675", "description": "Leather & fur processing" },
-      { "id": "676", "number": "676", "description": "Pulp & paper technology" },
+      { "id": "675", "number": "675", "description": "Leather and fur processing" },
+      { "id": "676", "number": "676", "description": "Pulp and paper technology" },
       { "id": "677", "number": "677", "description": "Textiles" },
-      { "id": "678", "number": "678", "description": "Elastomers & elastomer products" },
+      { "id": "678", "number": "678", "description": "Elastomers and elastomer products" },
       { "id": "679", "number": "679", "description": "Other products of specific materials" }
     ]},
     { "id": "68x", "number": "680", "description": "Manufacture for specific uses", "subordinates": [
       { "id": "680", "number": "680", "description": "Manufacture for specific uses" },
-      { "id": "681", "number": "681", "description": "Precision instruments & other devices", "subordinates": [
+      { "id": "681", "number": "681", "description": "Precision instruments and other devices", "subordinates": [
         { "id": "681.1", "number": "681.1", "description": "Instruments for measuring time" }
       ]},
       { "id": "682", "number": "682", "description": "Small forge work (Blacksmithing)" },
-      { "id": "683", "number": "683", "description": "Hardware & household appliences", "subordinates": [
+      { "id": "683", "number": "683", "description": "Hardware and household appliences", "subordinates": [
         { "id": "683.4", "number": "683.4", "description": "Small firearms" }
       ]},
-      { "id": "684", "number": "684", "description": "Furnishings & home workshops", "subordinates": [
+      { "id": "684", "number": "684", "description": "Furnishings and home workshops", "subordinates": [
         { "id": "684.1", "number": "684.1", "description": "Furniture" }
       ]},
       { "id": "685", "number": "685", "description": "Leather, fur, related products" },
-      { "id": "686", "number": "686", "description": "Printing & related activities", "subordinates": [
+      { "id": "686", "number": "686", "description": "Printing and related activities", "subordinates": [
         { "id": "686.2", "number": "686.2", "description": "Printing" },
         { "id": "686.3", "number": "686.3", "description": "Bookbinding" },
         { "id": "686.4", "number": "686.4", "description": "Photocopying (Photoduplication)" }
       ]},
       { "id": "687", "number": "687", "description": "Clothing" },
-      { "id": "688", "number": "688", "description": "Other final products & packaging", "subordinates": [
+      { "id": "688", "number": "688", "description": "Other final products and packaging", "subordinates": [
         { "id": "688.6", "number": "688.6", "description": "Nonmotor land vehicles" },
         { "id": "688.7", "number": "688.7", "description": "Recreational equipment" },
         { "id": "688.8", "number": "688.8", "description": "Packaging technology" }
@@ -1747,7 +1747,7 @@
       { "id": "690", "number": "690", "description": "Buildings" },
       { "id": "691", "number": "691", "description": "Building materials" },
       { "id": "692", "number": "692", "description": "Auxiliary construction practices" },
-      { "id": "693", "number": "693", "description": "Specific materials & purposes", "subordinates": [
+      { "id": "693", "number": "693", "description": "Specific materials and purposes", "subordinates": [
         { "id": "693.8", "number": "693.8", "description": "Construction for specific purposes" }
       ]},
       { "id": "694", "number": "694", "description": "Wood construction; Carpentry" },
@@ -1767,17 +1767,17 @@
         { "id": "700.8", "number": "700.8", "description": "The arts with respect to kinds of persons" },
         { "id": "700.9", "number": "700.9", "description": "Historical, geographic, persons treatment" }
       ]},
-      { "id": "701", "number": "701", "description": "Philosophy & theory" },
+      { "id": "701", "number": "701", "description": "Philosophy and theory" },
       { "id": "702", "number": "702", "description": "Miscellany", "subordinates": [
         { "id": "702.8", "number": "702.8", "description": "Technique, procedures, apparatus, equipment, materials" },
         { "id": "702.9", "number": "702.9", "description": "Commercial miscellany" }
       ]},
-      { "id": "703", "number": "703", "description": "Dictionaries & encyclopedias" },
+      { "id": "703", "number": "703", "description": "Dictionaries and encyclopedias" },
       { "id": "704", "number": "704", "description": "Special topics", "subordinates": [
         { "id": "704.9", "number": "704.9", "description": "Iconography" }
       ]},
       { "id": "705", "number": "705", "description": "Serial publications" },
-      { "id": "706", "number": "706", "description": "Organizations & management" },
+      { "id": "706", "number": "706", "description": "Organizations and management" },
       { "id": "707", "number": "707", "description": "Education, research, related topics", "subordinates": [
         { "id": "707.4", "number": "707.4", "description": "Temporary and traveling collections and exhibits" }
       ]},
@@ -1791,8 +1791,8 @@
         { "id": "709.2", "number": "709.2", "description": "Persons" }
       ]}
     ]},
-    { "id": "71x", "number": "710", "description": "Civic & landscape art", "subordinates": [
-      { "id": "710", "number": "710", "description": "Civic & landscape art" },
+    { "id": "71x", "number": "710", "description": "Civic and landscape art", "subordinates": [
+      { "id": "710", "number": "710", "description": "Civic and landscape art" },
       { "id": "711", "number": "711", "description": "Area planning (Civic art)" },
       { "id": "712", "number": "712", "description": "Landscape architecture" },
       { "id": "713", "number": "713", "description": "Landscape architecture of traffic ways" },
@@ -1814,12 +1814,12 @@
       { "id": "724", "number": "724", "description": "Architecture from 1400" },
       { "id": "725", "number": "725", "description": "Public structures" },
       { "id": "726", "number": "726", "description": "Buildings for religious purposes" },
-      { "id": "727", "number": "727", "description": "Buildings for education & research" },
-      { "id": "728", "number": "728", "description": "Residential & related buildings", "subordinates": [
+      { "id": "727", "number": "727", "description": "Buildings for education and research" },
+      { "id": "728", "number": "728", "description": "Residential and related buildings", "subordinates": [
         { "id": "728.7", "number": "728.7", "description": "Vacation houses, cabins, hunting lodges, houseboats, mobile homes" },
         { "id": "728.8", "number": "728.8", "description": "Large and elaborate private dwellings" }
       ]},
-      { "id": "729", "number": "729", "description": "Design & decoration" }
+      { "id": "729", "number": "729", "description": "Design and decoration" }
     ]},
     { "id": "73x", "number": "730", "description": "Plastic arts, sculpture", "subordinates": [
       { "id": "730", "number": "730", "description": "Plastic arts; Sculpture", "subordinates": [
@@ -1834,8 +1834,8 @@
       { "id": "733", "number": "733", "description": "Greek, Etruscan, Roman sculpture" },
       { "id": "734", "number": "734", "description": "Sculpture from ca. 500 to 1399" },
       { "id": "735", "number": "735", "description": "Sculpture from 1400" },
-      { "id": "736", "number": "736", "description": "Carving & carvings" },
-      { "id": "737", "number": "737", "description": "Numismatics & sigillography", "subordinates": [
+      { "id": "736", "number": "736", "description": "Carving and carvings" },
+      { "id": "737", "number": "737", "description": "Numismatics and sigillography", "subordinates": [
         { "id": "737.4", "number": "737.4", "description": "Coins" }
       ]},
       { "id": "738", "number": "738", "description": "Ceramic arts", "subordinates": [
@@ -1854,9 +1854,9 @@
         { "id": "739.7", "number": "739.7", "description": "Arms and armour" }
       ]}
     ]},
-    { "id": "74x", "number": "740", "description": "Drawing & decorative arts", "subordinates": [
-      { "id": "740", "number": "740", "description": "Drawing & decorative arts" },
-      { "id": "741", "number": "741", "description": "Drawing & drawings", "subordinates": [
+    { "id": "74x", "number": "740", "description": "Drawing and decorative arts", "subordinates": [
+      { "id": "740", "number": "740", "description": "Drawing and decorative arts" },
+      { "id": "741", "number": "741", "description": "Drawing and drawings", "subordinates": [
         { "id": "741.2", "number": "741.2", "description": "Techniques, procedures, apparatus, equipment, materials" },
         { "id": "741.5", "number": "741.5", "description": "Cartoons, caricatures, comics" },
         { "id": "741.6", "number": "741.6", "description": "Graphic design, illustration and commercial art" },
@@ -1864,7 +1864,7 @@
         { "id": "741.9", "number": "741.9", "description": "Collections of drawings" }
       ]},
       { "id": "742", "number": "742", "description": "Perspective" },
-      { "id": "743", "number": "743", "description": "Drawing & drawings by subject" },
+      { "id": "743", "number": "743", "description": "Drawing and drawings by subject" },
       { "id": "744", "number": "744", "description": "" },
       { "id": "745", "number": "745", "description": "Decorative arts", "subordinates": [
         { "id": "745.1", "number": "745.1", "description": "Antiques" },
@@ -1896,12 +1896,12 @@
         { "id": "748.6", "number": "748.6", "description": "Methods of decoration" },
         { "id": "748.8", "number": "748.8", "description": "Specific articles" }
       ]},
-      { "id": "749", "number": "749", "description": "Furniture & accessories", "subordinates": [
+      { "id": "749", "number": "749", "description": "Furniture and accessories", "subordinates": [
         { "id": "749.2", "number": "749.2", "description": "Historical, geographic, persons treatment" }
       ]}
     ]},
-    { "id": "75x", "number": "750", "description": "Painting & paintings (museums)", "subordinates": [
-      { "id": "750", "number": "750", "description": "Painting & paintings", "subordinates": [
+    { "id": "75x", "number": "750", "description": "Painting and paintings (museums)", "subordinates": [
+      { "id": "750", "number": "750", "description": "Painting and paintings", "subordinates": [
         { "id": "750.1", "number": "750.1", "description": "Philosophy and theory" }
       ]},
       { "id": "751", "number": "751", "description": "Techniques, equipment, forms", "subordinates": [
@@ -1915,9 +1915,9 @@
       { "id": "752", "number": "752", "description": "Colour" },
       { "id": "753", "number": "753", "description": "Symbolism, allegory, mythology, legend" },
       { "id": "754", "number": "754", "description": "Genre paintings" },
-      { "id": "755", "number": "755", "description": "Religion & religious symbolism" },
+      { "id": "755", "number": "755", "description": "Religion and religious symbolism" },
       { "id": "756", "number": "756", "description": "" },
-      { "id": "757", "number": "757", "description": "Human figures & their parts" },
+      { "id": "757", "number": "757", "description": "Human figures and their parts" },
       { "id": "758", "number": "758", "description": "Other subjects" },
       { "id": "759", "number": "759", "description": "Historical, areas, persons treatment - add area codes", "subordinates": [
         { "id": "759.11", "number": "759.11", "description": "Canadian" },
@@ -1933,8 +1933,8 @@
         { "id": "759.94", "number": "759.94", "description": "Dutch" }
       ]}
     ]},
-    { "id": "76x", "number": "760", "description": "Graphic arts, printmaking & prints, postage stamps", "subordinates": [
-      { "id": "760", "number": "760", "description": "Graphic arts; Printmaking & prints", "subordinates": [
+    { "id": "76x", "number": "760", "description": "Graphic arts, printmaking and prints, postage stamps", "subordinates": [
+      { "id": "760", "number": "760", "description": "Graphic arts; Printmaking and prints", "subordinates": [
         { "id": "760.1", "number": "760.1", "description": "Philosophy and theory of printmaking and prints" },
         { "id": "760.2", "number": "760.2", "description": "Miscellany of printmaking and prints" },
         { "id": "760.7", "number": "760.7", "description": "Education and related topics of printmaking and prints" },
@@ -1943,18 +1943,18 @@
       { "id": "761", "number": "761", "description": "Relief processes (Block printing)" },
       { "id": "762", "number": "762", "description": "" },
       { "id": "763", "number": "763", "description": "Lithographic (Planographic) processes" },
-      { "id": "764", "number": "764", "description": "Chromolithography & serigraphy" },
+      { "id": "764", "number": "764", "description": "Chromolithography and serigraphy" },
       { "id": "765", "number": "765", "description": "Metal engraving" },
-      { "id": "766", "number": "766", "description": "Mezzotinting & related processes" },
-      { "id": "767", "number": "767", "description": "Etching & drypoint" },
+      { "id": "766", "number": "766", "description": "Mezzotinting and related processes" },
+      { "id": "767", "number": "767", "description": "Etching and drypoint" },
       { "id": "768", "number": "768", "description": "" },
       { "id": "769", "number": "769", "description": "Prints", "subordinates": [
         { "id": "769.5", "number": "769.5", "description": "Forms of prints" },
         { "id": "769.9", "number": "769.9", "description": "Historical, geographic, persons treatment of printmaking and prints" }
       ]}
     ]},
-    { "id": "77x", "number": "770", "description": "Photography & photographs", "subordinates": [
-      { "id": "770", "number": "770", "description": "Photography & photographs", "subordinates": [
+    { "id": "77x", "number": "770", "description": "Photography and photographs", "subordinates": [
+      { "id": "770", "number": "770", "description": "Photography and photographs", "subordinates": [
         { "id": "770.2", "number": "770.2", "description": "Miscellany" },
         { "id": "770.9", "number": "770.9", "description": "Historical, geographic, persons treatment" }
       ]},
@@ -1967,7 +1967,7 @@
       { "id": "775", "number": "775", "description": "" },
       { "id": "776", "number": "776", "description": "" },
       { "id": "777", "number": "777", "description": "" },
-      { "id": "778", "number": "778", "description": "Fields & kinds of photography", "subordinates": [
+      { "id": "778", "number": "778", "description": "Fields and kinds of photography", "subordinates": [
         { "id": "778.2", "number": "778.2", "description": "Photographic projection" },
         { "id": "778.3", "number": "778.3", "description": "Special kinds of photography" },
         { "id": "778.4", "number": "778.4", "description": "Stereoscopic photography and projection" },
@@ -1986,7 +1986,7 @@
         { "id": "780.9", "number": "780.9", "description": "Historical, geographic," },
         { "id": "780.92", "number": "780.92", "description": "musicians, composers" }
       ]},
-      { "id": "781", "number": "781", "description": "General principles & musical forms", "subordinates": [
+      { "id": "781", "number": "781", "description": "General principles and musical forms", "subordinates": [
         { "id": "781.1", "number": "781.1", "description": "Aesthetics, appreciation, taste" },
         { "id": "781.2", "number": "781.2", "description": "Elements of music" },
         { "id": "781.3", "number": "781.3", "description": "Composition" },
@@ -2018,7 +2018,7 @@
         { "id": "783.8", "number": "783.8", "description": "Men's voices" },
         { "id": "783.9", "number": "783.9", "description": "Other types of voice" }
       ]},
-      { "id": "784", "number": "784", "description": "Instruments & instrumental ensembles", "subordinates": [
+      { "id": "784", "number": "784", "description": "Instruments and instrumental ensembles", "subordinates": [
         { "id": "784.1", "number": "784.1", "description": "General principles, musical forms, instruments" },
         { "id": "784.2", "number": "784.2", "description": "Full (Symphony) orchestra" },
         { "id": "784.3", "number": "784.3", "description": "Chamber orchestra" },
@@ -2030,7 +2030,7 @@
         { "id": "784.9", "number": "784.9", "description": "Brass band" }
       ]},
       { "id": "785", "number": "785", "description": "Chamber music" },
-      { "id": "786", "number": "786", "description": "Keyboard & other instruments", "subordinates": [
+      { "id": "786", "number": "786", "description": "Keyboard and other instruments", "subordinates": [
         { "id": "786.2", "number": "786.2", "description": "Piano" },
         { "id": "786.3", "number": "786.3", "description": "Clavichord" },
         { "id": "786.4", "number": "786.4", "description": "Harpsichord" },
@@ -2061,8 +2061,8 @@
       ]},
       { "id": "789", "number": "789", "description": "" }
     ]},
-    { "id": "79x", "number": "790", "description": "Recreational & performing arts", "subordinates": [
-      { "id": "790", "number": "790", "description": "Recreational & performing arts", "subordinates": [
+    { "id": "79x", "number": "790", "description": "Recreational and performing arts", "subordinates": [
+      { "id": "790", "number": "790", "description": "Recreational and performing arts", "subordinates": [
         { "id": "790.1", "number": "790.1", "description": "Recreational activities" },
         { "id": "790.2", "number": "790.2", "description": "The performing arts in general" }
       ]},
@@ -2084,7 +2084,7 @@
         { "id": "792.8", "number": "792.8", "description": "Ballet and modern dance" },
         { "id": "792.9", "number": "792.9", "description": "Stage productions" }
       ]},
-      { "id": "793", "number": "793", "description": "Indoor games & amusements", "subordinates": [
+      { "id": "793", "number": "793", "description": "Indoor games and amusements", "subordinates": [
         { "id": "793.2", "number": "793.2", "description": "Parties and entertainment" },
         { "id": "793.3", "number": "793.3", "description": "Social, folk, national dancing" },
         { "id": "793.4", "number": "793.4", "description": "Games of action" },
@@ -2107,7 +2107,7 @@
         { "id": "795.3", "number": "795.3", "description": "Games dependent on drawing numbers or counters" },
         { "id": "795.4", "number": "795.4", "description": "Card games" }
       ]},
-      { "id": "796", "number": "796", "description": "Athletic & outdoor sports & games", "subordinates": [
+      { "id": "796", "number": "796", "description": "Athletic and outdoor sports and games", "subordinates": [
         { "id": "796.0971", "number": "796.0971", "description": "Canadian sport history" },
         { "id": "796.1", "number": "796.1", "description": "Miscellaneous games" },
         { "id": "796.2", "number": "796.2", "description": "Activities and games requiring equipment" },
@@ -2121,13 +2121,13 @@
         { "id": "796.91", "number": "796.91", "description": "Skiing" },
         { "id": "796.96", "number": "796.96", "description": "Hockey" }
       ]},
-      { "id": "797", "number": "797", "description": "Aquatic & air sports", "subordinates": [
+      { "id": "797", "number": "797", "description": "Aquatic and air sports", "subordinates": [
         { "id": "797.1", "number": "797.1", "description": "Boating" },
         { "id": "797.2", "number": "797.2", "description": "Swimming and diving" },
         { "id": "797.3", "number": "797.3", "description": "Other aquatic sports" },
         { "id": "797.5", "number": "797.5", "description": "Air sports" }
       ]},
-      { "id": "798", "number": "798", "description": "Equestrian sports & animal racing", "subordinates": [
+      { "id": "798", "number": "798", "description": "Equestrian sports and animal racing", "subordinates": [
         { "id": "798.2", "number": "798.2", "description": "Horsemanship" },
         { "id": "798.4", "number": "798.4", "description": "Horse racing Flat racing" }
       ]},
@@ -2138,17 +2138,17 @@
       ]}
     ]}
   ]},
-  { "id": "8xx", "number": "800", "description": "Literature & rhetoric", "subordinates": [
+  { "id": "8xx", "number": "800", "description": "Literature and rhetoric", "subordinates": [
     { "id": "80x", "number": "800", "description": "Generalities", "subordinates": [
       { "id": "800", "number": "800", "description": "Literature and rhetoric" },
-      { "id": "801", "number": "801", "description": "Philosophy & theory" },
+      { "id": "801", "number": "801", "description": "Philosophy and theory" },
       { "id": "802", "number": "802", "description": "Miscellany" },
-      { "id": "803", "number": "803", "description": "Dictionaries & encyclopedias" },
+      { "id": "803", "number": "803", "description": "Dictionaries and encyclopedias" },
       { "id": "804", "number": "804", "description": "" },
       { "id": "805", "number": "805", "description": "Serial publications" },
       { "id": "806", "number": "806", "description": "Organizations" },
       { "id": "807", "number": "807", "description": "Education, research, related topics" },
-      { "id": "808", "number": "808", "description": "Rhetoric & collections of literature", "subordinates": [
+      { "id": "808", "number": "808", "description": "Rhetoric and collections of literature", "subordinates": [
         { "id": "808.1", "number": "808.1", "description": "Rhetoric [how to create] of poetry" },
         { "id": "808.2", "number": "808.2", "description": "Rhetoric of drama" },
         { "id": "808.3", "number": "808.3", "description": "Rhetoric of fiction" },
@@ -2161,7 +2161,7 @@
         { "id": "808.82", "number": "808.82", "description": "Collections of drama" },
         { "id": "808.83", "number": "808.83", "description": "Collections of prose" }
       ]},
-      { "id": "809", "number": "809", "description": "Literary history & criticism", "subordinates": [
+      { "id": "809", "number": "809", "description": "Literary history and criticism", "subordinates": [
         { "id": "809.1", "number": "809.1", "description": "Literary history and criticism of poetry" },
         { "id": "809.2", "number": "809.2", "description": "Literary history and criticism of drama" },
         { "id": "809.3", "number": "809.3", "description": "Literary history and criticism of fiction" },
@@ -2171,7 +2171,7 @@
         { "id": "809.7", "number": "809.7", "description": "Literary history and criticism of satire and humor" }
       ]}
     ]},
-    { "id": "81x", "number": "810", "description": "American & Canadian literature", "subordinates": [
+    { "id": "81x", "number": "810", "description": "American and Canadian literature", "subordinates": [
       { "id": "810", "number": "810", "description": "American or Canadian  literature in English", "subordinates": [
         { "id": "810.8", "number": "810.8", "description": "collections" },
         { "id": "810.9", "number": "810.9", "description": "history and criticism" }
@@ -2191,11 +2191,11 @@
       { "id": "814", "number": "814", "description": "Essays" },
       { "id": "815", "number": "815", "description": "Speeches" },
       { "id": "816", "number": "816", "description": "Letters" },
-      { "id": "817", "number": "817", "description": "Satire & humor" },
+      { "id": "817", "number": "817", "description": "Satire and humor" },
       { "id": "818", "number": "818", "description": "Miscellaneous writings" },
       { "id": "819", "number": "819", "description": "" }
     ]},
-    { "id": "82x", "number": "820", "description": "English & Old English literatures and other literatures commonly translated into English", "subordinates": [
+    { "id": "82x", "number": "820", "description": "English and Old English literatures and other literatures commonly translated into English", "subordinates": [
       { "id": "820", "number": "820", "description": "British literature in English", "subordinates": [
         { "id": "820.8", "number": "820.8", "description": "collections" },
         { "id": "820.9", "number": "820.9", "description": "history and criticism" }
@@ -2216,7 +2216,7 @@
       { "id": "824", "number": "824", "description": "Essays" },
       { "id": "825", "number": "825", "description": "Speeches" },
       { "id": "826", "number": "826", "description": "Letters" },
-      { "id": "827", "number": "827", "description": "Satire & humor" },
+      { "id": "827", "number": "827", "description": "Satire and humor" },
       { "id": "828", "number": "828", "description": "Miscellaneous writings" },
       { "id": "829", "number": "829", "description": "Old English" }
     ]},
@@ -2228,7 +2228,7 @@
       { "id": "834", "number": "834", "description": "German essays" },
       { "id": "835", "number": "835", "description": "German speeches" },
       { "id": "836", "number": "836", "description": "German letters" },
-      { "id": "837", "number": "837", "description": "German satire & humor" },
+      { "id": "837", "number": "837", "description": "German satire and humor" },
       { "id": "838", "number": "838", "description": "German miscellaneous writings" },
       { "id": "839", "number": "839", "description": "Other Germanic literatures", "subordinates": [
         { "id": "839.3", "number": "839.3", "description": "Dutch, Flemish, Afrikaans" },
@@ -2244,9 +2244,9 @@
       { "id": "844", "number": "844", "description": "French essays" },
       { "id": "845", "number": "845", "description": "French speeches" },
       { "id": "846", "number": "846", "description": "French letters" },
-      { "id": "847", "number": "847", "description": "French satire & humor" },
+      { "id": "847", "number": "847", "description": "French satire and humor" },
       { "id": "848", "number": "848", "description": "French miscellaneous writings" },
-      { "id": "849", "number": "849", "description": "Provençal & Catalan" }
+      { "id": "849", "number": "849", "description": "Provençal and Catalan" }
     ]},
     { "id": "85x", "number": "850", "description": "Italian, Romanian literatures, in Italian", "subordinates": [
       { "id": "850", "number": "850", "description": "Italian, Romanian, Rhæto-Romanic" },
@@ -2256,31 +2256,31 @@
       { "id": "854", "number": "854", "description": "Italian essays" },
       { "id": "855", "number": "855", "description": "Italian speeches" },
       { "id": "856", "number": "856", "description": "Italian letters" },
-      { "id": "857", "number": "857", "description": "Italian satire & humor" },
+      { "id": "857", "number": "857", "description": "Italian satire and humor" },
       { "id": "858", "number": "858", "description": "Italian miscellaneous writings" },
-      { "id": "859", "number": "859", "description": "Romanian & Rhæto-Romanic" }
+      { "id": "859", "number": "859", "description": "Romanian and Rhæto-Romanic" }
     ]},
-    { "id": "86x", "number": "860", "description": "Spanish & Portuguese literatures", "subordinates": [
-      { "id": "860", "number": "860", "description": "Spanish & Portuguese literatuers" },
+    { "id": "86x", "number": "860", "description": "Spanish and Portuguese literatures", "subordinates": [
+      { "id": "860", "number": "860", "description": "Spanish and Portuguese literatuers" },
       { "id": "861", "number": "861", "description": "Spanish poetry" },
       { "id": "862", "number": "862", "description": "Spanish drama" },
       { "id": "863", "number": "863", "description": "Spanish fiction" },
       { "id": "864", "number": "864", "description": "Spanish essays" },
       { "id": "865", "number": "865", "description": "Spanish speeches" },
       { "id": "866", "number": "866", "description": "Spanish letters" },
-      { "id": "867", "number": "867", "description": "Spanish satire & humor" },
+      { "id": "867", "number": "867", "description": "Spanish satire and humor" },
       { "id": "868", "number": "868", "description": "Spanish miscellaneous writings" },
       { "id": "869", "number": "869", "description": "Portuguese" }
     ]},
     { "id": "87x", "number": "870", "description": "Italic literatures, Latin", "subordinates": [
-      { "id": "870", "number": "870", "description": "Latin & Old Latin literatuers" },
+      { "id": "870", "number": "870", "description": "Latin and Old Latin literatuers" },
       { "id": "871", "number": "871", "description": "Latin poetry" },
       { "id": "872", "number": "872", "description": "Latin drama" },
       { "id": "873", "number": "873", "description": "Latin fiction" },
       { "id": "874", "number": "874", "description": "Latin essays" },
       { "id": "875", "number": "875", "description": "Latin speeches" },
       { "id": "876", "number": "876", "description": "Latin letters" },
-      { "id": "877", "number": "877", "description": "Latin satire & humor" },
+      { "id": "877", "number": "877", "description": "Latin satire and humor" },
       { "id": "878", "number": "878", "description": "Latin miscellaneous writings" },
       { "id": "879", "number": "879", "description": "Literatures of other Italic languages" }
     ]},
@@ -2292,13 +2292,13 @@
       { "id": "884", "number": "884", "description": "Classical Greek essays" },
       { "id": "885", "number": "885", "description": "Classical Greek speeches" },
       { "id": "886", "number": "886", "description": "Classical Greek letters" },
-      { "id": "887", "number": "887", "description": "Classical Greek satire & humor" },
+      { "id": "887", "number": "887", "description": "Classical Greek satire and humor" },
       { "id": "888", "number": "888", "description": "Classical Greek miscellaneous writings" },
       { "id": "889", "number": "889", "description": "Modern Greek" }
     ]},
     { "id": "89x", "number": "890", "description": "Literatures of other languages,", "subordinates": [
       { "id": "890", "number": "890", "description": "Literatures of other languages" },
-      { "id": "891", "number": "891", "description": "East Indo-European & Celtic literatures", "subordinates": [
+      { "id": "891", "number": "891", "description": "East Indo-European and Celtic literatures", "subordinates": [
         { "id": "891.6", "number": "891.6", "description": "Celtic literatures" },
         { "id": "891.7", "number": "891.7", "description": "East Slavic literatures Russian" },
         { "id": "891.8", "number": "891.8", "description": "Slavic literatures" }
@@ -2308,7 +2308,7 @@
       ]},
       { "id": "893", "number": "893", "description": "Non-Semitic Afro-Asiatic literatures" },
       { "id": "894", "number": "894", "description": "Ural-Altaic, Paleosiberian, Dravidian" },
-      { "id": "895", "number": "895", "description": "Literatures of East & Southeast Asia", "subordinates": [
+      { "id": "895", "number": "895", "description": "Literatures of East and Southeast Asia", "subordinates": [
         { "id": "895.1", "number": "895.1", "description": "Chinese" },
         { "id": "895.6", "number": "895.6", "description": "Japanese" },
         { "id": "895.7", "number": "895.7", "description": "Korean" },
@@ -2320,15 +2320,15 @@
       { "id": "899", "number": "899", "description": "Other literatures" }
     ]}
   ]},
-  { "id": "9xx", "number": "900", "description": "Geography & history", "subordinates": [
+  { "id": "9xx", "number": "900", "description": "Geography and history", "subordinates": [
     { "id": "90x", "number": "900", "description": "World History", "subordinates": [
-      { "id": "900", "number": "900", "description": "Geography & history" },
-      { "id": "901", "number": "901", "description": "Philosophy & theory" },
+      { "id": "900", "number": "900", "description": "Geography and history" },
+      { "id": "901", "number": "901", "description": "Philosophy and theory" },
       { "id": "902", "number": "902", "description": "Miscellany" },
-      { "id": "903", "number": "903", "description": "Dictionaries & encyclopedias" },
+      { "id": "903", "number": "903", "description": "Dictionaries and encyclopedias" },
       { "id": "904", "number": "904", "description": "Collected accounts of events" },
       { "id": "905", "number": "905", "description": "Serial publications" },
-      { "id": "906", "number": "906", "description": "Organizations & management" },
+      { "id": "906", "number": "906", "description": "Organizations and management" },
       { "id": "907", "number": "907", "description": "Education, research, related topics" },
       { "id": "908", "number": "908", "description": "With respect to kinds of persons" },
       { "id": "909", "number": "909", "description": "World history", "subordinates": [
@@ -2338,7 +2338,7 @@
       ]}
     ]},
     { "id": "91x", "number": "910", "description": "Geography and travel [see area subdivisions]", "subordinates": [
-      { "id": "910", "number": "910", "description": "Geography & travel", "subordinates": [
+      { "id": "910", "number": "910", "description": "Geography and travel", "subordinates": [
         { "id": "910.2", "number": "910.2", "description": "Miscellany" },
         { "id": "910.3", "number": "910.3", "description": "Dictionaries, encyclopedias, concordances, gazetteers" },
         { "id": "910.4", "number": "910.4", "description": "Accounts of travel, discoveries, shipwrecks, adventures" },
@@ -2408,9 +2408,9 @@
       { "id": "932", "number": "932", "description": "Egypt" },
       { "id": "933", "number": "933", "description": "Palestine" },
       { "id": "934", "number": "934", "description": "India" },
-      { "id": "935", "number": "935", "description": "Mesopotamia & Iranian Plateau" },
-      { "id": "936", "number": "936", "description": "Europe north & west of Italy" },
-      { "id": "937", "number": "937", "description": "Italy & adjacent territories" },
+      { "id": "935", "number": "935", "description": "Mesopotamia and Iranian Plateau" },
+      { "id": "936", "number": "936", "description": "Europe north and west of Italy" },
+      { "id": "937", "number": "937", "description": "Italy and adjacent territories" },
       { "id": "938", "number": "938", "description": "Greece" },
       { "id": "939", "number": "939", "description": "Other parts of ancient world" }
     ]},
@@ -2430,7 +2430,7 @@
         { "id": "941.6", "number": "941.6", "description": "Ulster Northern Ireland" },
         { "id": "941.7", "number": "941.7", "description": "Republic of Ireland" }
       ]},
-      { "id": "942", "number": "942", "description": "England & Wales", "subordinates": [
+      { "id": "942", "number": "942", "description": "England and Wales", "subordinates": [
         { "id": "942.05", "number": "942.05", "description": "1485-1603 Shakespeare's time" },
         { "id": "942.085", "number": "942.085", "description": "Queen Elizabeth II" },
         { "id": "942.9", "number": "942.9", "description": "Wales" }
@@ -2443,12 +2443,12 @@
         { "id": "943.8", "number": "943.8", "description": "Poland" },
         { "id": "943.9", "number": "943.9", "description": "Hungary" }
       ]},
-      { "id": "944", "number": "944", "description": "France & Monaco", "subordinates": [
+      { "id": "944", "number": "944", "description": "France and Monaco", "subordinates": [
         { "id": "944.04", "number": "944.04", "description": "Revolution" },
         { "id": "944.05", "number": "944.05", "description": "Napoleon" }
       ]},
-      { "id": "945", "number": "945", "description": "Italian Peninsula & adjacent islands" },
-      { "id": "946", "number": "946", "description": "Iberian Peninsula & adjacent islands" },
+      { "id": "945", "number": "945", "description": "Italian Peninsula and adjacent islands" },
+      { "id": "946", "number": "946", "description": "Iberian Peninsula and adjacent islands" },
       { "id": "946.9", "number": "946.9", "description": "Portugal" },
       { "id": "947", "number": "947", "description": "Eastern Europe; Soviet Union", "subordinates": [
         { "id": "947.083", "number": "947.083", "description": "Revolution" },
@@ -2474,12 +2474,12 @@
     ]},
     { "id": "95x", "number": "950", "description": "General history of Asia, Far East", "subordinates": [
       { "id": "950", "number": "950", "description": "General history of Asia; Far East" },
-      { "id": "951", "number": "951", "description": "China & adjacent areas", "subordinates": [
+      { "id": "951", "number": "951", "description": "China and adjacent areas", "subordinates": [
         { "id": "951.2", "number": "951.2", "description": "Taiwan, Hong Kong, Macao" },
         { "id": "951.9", "number": "951.9", "description": "Korea" }
       ]},
       { "id": "952", "number": "952", "description": "Japan" },
-      { "id": "953", "number": "953", "description": "Arabian Peninsula & adjacent areas", "subordinates": [
+      { "id": "953", "number": "953", "description": "Arabian Peninsula and adjacent areas", "subordinates": [
         { "id": "953.8", "number": "953.8", "description": "Saudi Arabia" }
       ]},
       { "id": "954", "number": "954", "description": "South Asia; India" },
@@ -2508,17 +2508,17 @@
     ]},
     { "id": "96x", "number": "960", "description": "General history of Africa", "subordinates": [
       { "id": "960", "number": "960", "description": "General history of Africa" },
-      { "id": "961", "number": "961", "description": "Tunisia & Libya", "subordinates": [
+      { "id": "961", "number": "961", "description": "Tunisia and Libya", "subordinates": [
         { "id": "961.1", "number": "961.1", "description": "Tunisia" },
         { "id": "961.2", "number": "961.2", "description": "Libya" }
       ]},
-      { "id": "962", "number": "962", "description": "Egypt & Sudan", "subordinates": [
+      { "id": "962", "number": "962", "description": "Egypt and Sudan", "subordinates": [
         { "id": "962.4", "number": "962.4", "description": "Sudan" }
       ]},
       { "id": "963", "number": "963", "description": "Ethiopia" },
-      { "id": "964", "number": "964", "description": "Morocco & Canary Islands" },
+      { "id": "964", "number": "964", "description": "Morocco and Canary Islands" },
       { "id": "965", "number": "965", "description": "Algeria" },
-      { "id": "966", "number": "966", "description": "West Africa & offshore islands", "subordinates": [
+      { "id": "966", "number": "966", "description": "West Africa and offshore islands", "subordinates": [
         { "id": "966.1", "number": "966.1", "description": "Mauritania" },
         { "id": "966.2", "number": "966.2", "description": "Mali, Burkina Faso, Niger" },
         { "id": "966.3", "number": "966.3", "description": "Senegal" },
@@ -2529,7 +2529,7 @@
         { "id": "966.8", "number": "966.8", "description": "Togo and Benin" },
         { "id": "966.9", "number": "966.9", "description": "Nigeria" }
       ]},
-      { "id": "967", "number": "967", "description": "Central Africa & offshore islands", "subordinates": [
+      { "id": "967", "number": "967", "description": "Central Africa and offshore islands", "subordinates": [
         { "id": "967.1", "number": "967.1", "description": "Cameroon, Sao Tome and Principe, Equatorial Guinea" },
         { "id": "967.2", "number": "967.2", "description": "Gabon and Republic of the Congo" },
         { "id": "967.3", "number": "967.3", "description": "Angola" },
@@ -2590,7 +2590,7 @@
       { "id": "976", "number": "976", "description": "South central United States" },
       { "id": "977", "number": "977", "description": "North central United States" },
       { "id": "978", "number": "978", "description": "Western United States" },
-      { "id": "979", "number": "979", "description": "Great Basin & Pacific Slope" }
+      { "id": "979", "number": "979", "description": "Great Basin and Pacific Slope" }
     ]},
     { "id": "98x", "number": "980", "description": "General history of South America", "subordinates": [
       { "id": "980", "number": "980", "description": "General history of South America" },
@@ -2599,13 +2599,13 @@
       { "id": "983", "number": "983", "description": "Chile" },
       { "id": "984", "number": "984", "description": "Bolivia" },
       { "id": "985", "number": "985", "description": "Peru" },
-      { "id": "986", "number": "986", "description": "Colombia & Ecuador", "subordinates": [
+      { "id": "986", "number": "986", "description": "Colombia and Ecuador", "subordinates": [
         { "id": "986.1", "number": "986.1", "description": "Columbia" },
         { "id": "986.6", "number": "986.6", "description": "Ecuador" }
       ]},
       { "id": "987", "number": "987", "description": "Venezuela" },
       { "id": "988", "number": "988", "description": "Guiana" },
-      { "id": "989", "number": "989", "description": "Paraguay & Uruguay", "subordinates": [
+      { "id": "989", "number": "989", "description": "Paraguay and Uruguay", "subordinates": [
         { "id": "989.2", "number": "989.2", "description": "Paraguay" },
         { "id": "989.5", "number": "989.5", "description": "Uruguay" }
       ]}
@@ -2625,7 +2625,7 @@
         { "id": "996.9", "number": "996.9", "description": "North central Pacific Hawaii" }
       ]},
       { "id": "997", "number": "997", "description": "Atlantic Ocean islands" },
-      { "id": "998", "number": "998", "description": "Arctic islands & Antarctica" },
+      { "id": "998", "number": "998", "description": "Arctic islands and Antarctica" },
       { "id": "999", "number": "999", "description": "Extraterrestrial worlds" }
     ]}
   ]}
