@@ -50,6 +50,7 @@ class App extends Component {
   }
 
   handleInput = input => {
+    console.log('handleinput:', input)
     if (this.validNumber(input)) {
       this.retrieve(input)
     } else {
@@ -58,21 +59,39 @@ class App extends Component {
   }
 
   handleButton = (button) => {
-    console.log(button)
+    switch (button) {
+      case 'home':
+        this.retrieve('xxx')
+        break
+      case 'back':
+        window.history.back()
+        this.gotoUri()
+        break
+      case 'forward':
+        window.history.forward()
+        this.gotoUri()
+        break
+      default:
+        console.error('Did not recognize that button')
+    }
   }
 
-  validNumber = number => (/^\d{3}$|^\d{2}x$|^\dxx$|^x{3}$/.test(number))
-
-  componentWillMount () {
+  gotoUri = () => {
     const uriLocation = window.location.hash.slice(1)
-    console.log(window.location.pathname)
 
     if (uriLocation.length === 0) {
       this.retrieve('xxx')
       return
     }
 
+    console.log('gotoUri:',uriLocation)
     this.handleInput(uriLocation)
+  }
+
+  validNumber = number => (/^\d{3}$|^\d{2}x$|^\dxx$|^x{3}$/.test(number))
+
+  componentWillMount () {
+    this.gotoUri()
   }
 
   render () {
