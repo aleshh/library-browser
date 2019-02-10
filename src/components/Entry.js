@@ -5,6 +5,7 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
   const unclickableWords = ['the', '&', 'and', 'to', 'of', 'in']
   const item = entry[entry.length - 1]
   const path = entry.slice(0, -1)
+
   return (
     <div className='result-row' key={item.id + item.number}>
       { (showHome || (path.length > 0)) ? (
@@ -21,6 +22,7 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
               <ChevronRight className='path-separator' />
             </React.Fragment>
           ) : null }
+
           {path.map((item, i, arr) => (
             <React.Fragment key={item.id + item.description}>
               <span
@@ -37,6 +39,7 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
           ))}
         </p>
       ) : null }
+
       <p>
         <span
           key={item.id}
@@ -71,17 +74,21 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
             return word + ' '
           }
         })}
-        <span
-          key={'chevrons ' + item.id}
-          onClick={() => {
-            if (item.subordinates) {
-              handleClick(item.id)
-            }
-          }}
-          className={item.subordinates ? 'result clickable' : 'result'}
-        >
-          {item.subordinates ? <ChevronsRight /> : ''}
-        </span>
+
+        {item.subordinates
+          ? <span
+            key={'chevrons ' + item.id}
+            onClick={() => {
+              if (item.subordinates) {
+                handleClick(item.id)
+              }
+            }}
+            className='result clickable'
+          >
+            <ChevronsRight />
+          </span>
+          : ''
+        }
       </p>
     </div>
   )
