@@ -17,6 +17,7 @@ class App extends Component {
       currentLocation: '',
       currentView: results ? results : []
     })
+    window.location = '#' + searchTerm
   }
 
   retrieve = location => {
@@ -26,12 +27,17 @@ class App extends Component {
       currentLocation: location,
       currentView: results ? results : []
     })
+    if (location !== 'xxx') {
+      window.location = '#' + location
+    } else {
+      window.location = '#'
+    }
   }
 
   handleSearch = e => {
     const searchTerm = e.target.value
     if (searchTerm === '') {
-      this.componentWillMount()
+      this.retrieve('xxx')
       return
     }
     if (searchTerm.length > 2) {
@@ -43,8 +49,8 @@ class App extends Component {
     }
   }
 
-  handleClick = input => {
-    if (this.validNUmber(input)) {
+  handleInput = input => {
+    if (this.validNumber(input)) {
       this.retrieve(input)
     } else {
       this.search(input)
@@ -54,7 +60,15 @@ class App extends Component {
   validNumber = number => (/^\d{3}$|^\d{2}x$|^\dxx$|^x{3}$/.test(number))
 
   componentWillMount () {
-    this.retrieve('xxx')
+    const uriLocation = window.location.hash.slice(1)
+    console.log(window.location.pathname)
+
+    if (uriLocation.length === 0) {
+      this.retrieve('xxx')
+      return
+    }
+
+    this.handleInput(uriLocation)
   }
 
   render () {
@@ -70,7 +84,7 @@ class App extends Component {
                 entry={result}
                 currentLocation={this.state.currentLocation}
                 showHome={(i === 0 && entryId !== '0xx' )}
-                handleClick={this.handleClick}
+                handleClick={this.handleInput}
               />
             )
           })}
