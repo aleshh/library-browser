@@ -57,6 +57,10 @@ class App extends Component {
     }
   }
 
+  handleButton = (button) => {
+    console.log(button)
+  }
+
   validNumber = number => (/^\d{3}$|^\d{2}x$|^\dxx$|^x{3}$/.test(number))
 
   componentWillMount () {
@@ -74,7 +78,11 @@ class App extends Component {
   render () {
     return (
       <div className='App'>
-        <Navbar searchTerm={this.state.searchTerm} handleSearch={this.handleSearch} />
+        <Navbar
+          handleButton={this.handleButton}
+          searchTerm={this.state.searchTerm}
+          handleSearch={this.handleSearch}
+        />
         <div className='results'>
           { this.state.currentView.map((result, i) => {
             const entryId = result[result.length - 1].id
