@@ -2,11 +2,11 @@ import React from 'react'
 import { Home, ChevronsRight, ChevronRight } from 'react-feather'
 
 function Entry ({ entry, showHome, currentLocation, handleClick }) {
-  const unclickableWords = ['the', '&']
+  const unclickableWords = ['the', '&', 'and', 'to', 'of']
   const item = entry[entry.length - 1]
   const path = entry.slice(0, -1)
   return (
-    <div className='result-row' key={item.id}>
+    <div className='result-row' key={item.id + item.number}>
       { (showHome || (path.length > 0)) ? (
         <p className='result-path'>
           { showHome ? (
@@ -20,12 +20,10 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
               </span>
               <ChevronRight className='path-separator' />
             </React.Fragment>
-          ) : null
-          }
+          ) : null }
           {path.map((item, i, arr) => (
-            <React.Fragment>
+            <React.Fragment key={item.id + item.description}>
               <span
-                key={item.id}
                 onClick={() => handleClick(item.id)}
                 className={(item.id !== currentLocation) ? 'clickable' : ''}
               >
@@ -41,6 +39,7 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
       ) : null }
       <p>
         <span
+          key={item.id}
           onClick={() => {
             if (item.subordinates) {
               handleClick(item.id)
@@ -53,7 +52,7 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
         &nbsp;&nbsp;
         {item.description.split(' ').map((word, id) => {
           if (!unclickableWords.includes(word.toLowerCase())) {
-            return (<span key={word + id}
+            return (<span key={id + word + item.id}
               className='clickable-word'
               onClick={() => handleClick(word)}
             >
@@ -64,6 +63,7 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
           }
         })}
         <span
+          key={'chevrons ' + item.id}
           onClick={() => {
             if (item.subordinates) {
               handleClick(item.id)
