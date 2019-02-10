@@ -16,12 +16,18 @@ class App extends Component {
       this.componentWillMount()
       return
     }
-    const results = searchDdc(searchTerm)
-    this.setState({
-      searchTerm: searchTerm,
-      currentLocation: '',
-      currentView: results ? results : []
-    })
+    if (searchTerm.length > 2) {
+      const results = searchDdc(searchTerm)
+      this.setState({
+        searchTerm: searchTerm,
+        currentLocation: '',
+        currentView: results ? results : []
+      })
+    } else {
+      this.setState({
+        searchTerm: searchTerm,
+      })
+    }
   }
 
   handleClick = input => {
