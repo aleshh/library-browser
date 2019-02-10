@@ -50,14 +50,23 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
           {item.number}
         </span>
         &nbsp;&nbsp;
+
         {item.description.split(' ').map((word, id) => {
           if (!unclickableWords.includes(word.toLowerCase())) {
-            return (<span key={id + word + item.id}
-              className='clickable-word'
-              onClick={() => handleClick(word)}
-            >
-              {word + ' '}
-            </span>)
+            const w = cleanupWord(word)
+
+            return (
+              <span key={id + word + item.id}>
+                {w.pre}
+                <span
+                  className='clickable-word'
+                  onClick={() => handleClick(w.word)}
+                >
+                  {w.word}
+                </span>
+                {w.post + ' '}
+              </span>
+            )
           } else {
             return word + ' '
           }
@@ -76,6 +85,21 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
       </p>
     </div>
   )
+}
+
+const cleanupWord = word => {
+  const cleanWord = { pre: '', word: word, post: '' }
+  const wordEnd = word.length - 1
+
+  if (['(', '['].includes(word.substring(0,1))) {
+    cleanWord.pre = word.substring(0, 1)
+    cleanWord.word = word.substring(1)
+  }
+  if ([')', ']'].includes(word.substring(wordEnd))) {
+    cleanWord.post = word.substring(wordEnd)
+    cleanWord.word = cleanWord.word.substring(0, wordEnd - 1)
+  }
+  return cleanWord
 }
 
 export default Entry
