@@ -2,7 +2,7 @@ import React from 'react'
 import { Home, ChevronsRight, ChevronRight } from 'react-feather'
 
 function Entry ({ entry, showHome, currentLocation, handleClick }) {
-  const unclickableWords = ['the', '&', 'and', 'to', 'of']
+  const unclickableWords = ['the', '&', 'and', 'to', 'of', 'in']
   const item = entry[entry.length - 1]
   const path = entry.slice(0, -1)
   return (
@@ -89,16 +89,22 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
 
 const cleanupWord = word => {
   const cleanWord = { pre: '', word: word, post: '' }
-  const wordEnd = word.length - 1
 
   if (['(', '['].includes(word.substring(0,1))) {
     cleanWord.pre = word.substring(0, 1)
     cleanWord.word = word.substring(1)
   }
-  if ([')', ']'].includes(word.substring(wordEnd))) {
-    cleanWord.post = word.substring(wordEnd)
-    cleanWord.word = cleanWord.word.substring(0, wordEnd - 1)
+
+  // all this nonsense, because sometimes there's a comma after a close
+  // parenthesees! e.g., browse to 348 to see this in glorious action ¯\_(ツ)_/¯
+  while ([')', ']', ',', ';'].includes(
+    cleanWord.word.substring(cleanWord.word.length - 1)
+  )) {
+    cleanWord.post = cleanWord.word.substring(cleanWord.word.length - 1) +
+      cleanWord.post
+    cleanWord.word = cleanWord.word.substring(0, cleanWord.word.length - 1)
   }
+
   return cleanWord
 }
 
