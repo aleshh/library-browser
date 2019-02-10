@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Entry from './components/Entry'
-import Search from './components/Search'
+import Navbar from './components/Navbar'
 import { retrieveDdc, searchDdc } from './helpers/ddcFunctions'
 
 class App extends Component {
@@ -74,7 +74,7 @@ class App extends Component {
   render () {
     return (
       <div className='App'>
-        <Search searchTerm={this.state.searchTerm} handleSearch={this.handleSearch} />
+        <Navbar searchTerm={this.state.searchTerm} handleSearch={this.handleSearch} />
         <div className='results'>
           { this.state.currentView.map((result, i) => {
             const entryId = result[result.length - 1].id

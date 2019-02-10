@@ -36,10 +36,30 @@ a {
     text-decoration: underline !important;
 }
 
-.search {
-    padding: 13px 25px;
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    height: 60px;
     background-color: #ddd;
     border-bottom: 1px solid gray;
+    .button {
+        float: left;
+        padding: 18px 20px;
+        border-right: 1px solid black;
+        height: 100%;
+    }
+    .button:hover {
+        background: #ccc;
+        cursor: pointer;
+    }
+
+    .search {
+        float: left;
+        padding-left: 20px;
+        padding-top: 13px;
+    }
     input[type=text] {
         background-color: #ddd;
         font-size: 18px;
@@ -52,6 +72,10 @@ input[type=text]:focus {
     outline: none;
     background-color: #ccc;
     border-radius: 5px 5px 0 0;
+}
+
+.results {
+    margin-top: 60px;
 }
 
 .result-row {
