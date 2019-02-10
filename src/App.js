@@ -10,6 +10,24 @@ class App extends Component {
     currentView: []
   }
 
+  search = searchTerm => {
+    const results = searchDdc(searchTerm)
+    this.setState({
+      searchTerm: searchTerm,
+      currentLocation: '',
+      currentView: results ? results : []
+    })
+  }
+
+  retrieve = location => {
+    const results = retrieveDdc(location)
+    this.setState({
+      searchTerm: '',
+      currentLocation: location,
+      currentView: results ? results : []
+    })
+  }
+
   handleSearch = e => {
     const searchTerm = e.target.value
     if (searchTerm === '') {
@@ -17,12 +35,7 @@ class App extends Component {
       return
     }
     if (searchTerm.length > 2) {
-      const results = searchDdc(searchTerm)
-      this.setState({
-        searchTerm: searchTerm,
-        currentLocation: '',
-        currentView: results ? results : []
-      })
+      this.search(searchTerm)
     } else {
       this.setState({
         searchTerm: searchTerm,
@@ -31,30 +44,17 @@ class App extends Component {
   }
 
   handleClick = input => {
-    // if it's a number...
-    if (/^\d{3}$|^\d{2}x$|^\dxx$|^x{3}$/.test(input)) {
-      const results = retrieveDdc(input)
-      this.setState({
-        searchTerm: '',
-        currentLocation: input,
-        currentView: results ? results : []
-      })
+    if (this.validNUmber(input)) {
+      this.retrieve(input)
     } else {
-      const results = searchDdc(input)
-      this.setState({
-        searchTerm: input,
-        currentLocation: '',
-        currentView: results ? results : []
-      })
+      this.search(input)
     }
   }
 
+  validNumber = number => (/^\d{3}$|^\d{2}x$|^\dxx$|^x{3}$/.test(number))
+
   componentWillMount () {
-    const results = retrieveDdc('xxx')
-    this.setState({
-      searchTerm: '',
-      currentView: results ? results : []
-    })
+    this.retrieve('xxx')
   }
 
   render () {
