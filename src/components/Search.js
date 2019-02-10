@@ -6,7 +6,6 @@ function Search ({ searchTerm, handleSearch }) {
       <label htmlFor='search'>Search: </label>
       <input
         value={searchTerm}
-        autoFocus
         type='text'
         name='search'
         onChange={handleSearch}
