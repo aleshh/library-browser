@@ -1,17 +1,21 @@
 import React, { Component } from 'react'
 import Entry from './components/Entry'
 import Navbar from './components/Navbar'
-import { retrieveDdc, searchDdc } from './helpers/ddcFunctions'
+import DDC from 'ddc-browser'
 
 class App extends Component {
-  state = {
-    searchTerm: '',
-    currentLocation: '',
-    currentView: []
+  constructor(props) {
+    super(props)
+    this.ddc = new DDC()
+    this.state = {
+      searchTerm: '',
+      currentLocation: '',
+      currentView: []
+    }
   }
 
   search = searchTerm => {
-    const results = searchDdc(searchTerm)
+    const results = this.ddc.search(searchTerm)
     this.setState({
       searchTerm: searchTerm,
       currentLocation: '',
@@ -21,7 +25,7 @@ class App extends Component {
   }
 
   retrieve = location => {
-    const results = retrieveDdc(location)
+    const results = this.ddc.retrieve(location)
     this.setState({
       searchTerm: '',
       currentLocation: location,

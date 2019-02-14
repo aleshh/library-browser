@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://projects.alesh.com/library-browser/",
   "dependencies": {
+    "ddc-browser": "^0.1.1",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
