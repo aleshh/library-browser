@@ -14,6 +14,10 @@ class App extends Component {
     }
   }
 
+  /**
+   * Pull up the search results for any string
+   * @param string search term
+   */
   search = searchTerm => {
     const results = this.ddc.search(searchTerm)
     this.setState({
@@ -24,6 +28,10 @@ class App extends Component {
     window.location = '#' + searchTerm
   }
 
+  /**
+   * Pull up the listing for a 3-digit code
+   * @param string a valid 3-digit code
+   */
   retrieve = location => {
     const results = this.ddc.retrieve(location)
     this.setState({
@@ -38,6 +46,10 @@ class App extends Component {
     }
   }
 
+  /**
+   * Return home if blank, search if 3 or more character string
+   * @param event from the search form
+   */
   handleSearch = e => {
     const searchTerm = e.target.value
     if (searchTerm === '') {
@@ -53,6 +65,10 @@ class App extends Component {
     }
   }
 
+  /**
+   * retrieves results for a nuber if valid, otherwise does a search
+   * @param string input: a 3-digit location code or any string
+   */
   handleInput = input => {
     console.log('handleinput:', input)
     if (this.validNumber(input)) {
@@ -62,6 +78,11 @@ class App extends Component {
     }
   }
 
+
+  /**
+   * Handle clicks on the home, back, and forwards buttons
+   * @param string button: name of one of the 3 buttons
+   */
   handleButton = (button) => {
     switch (button) {
       case 'home':
@@ -80,18 +101,30 @@ class App extends Component {
     }
   }
 
+  /**
+   * Gets the location from the URI and feeds it to handleInput
+   * after a slight delay
+   */
   gotoUri = () => {
-    const uriLocation = window.location.hash.slice(1)
+    // this seems gross, but adding a 1/10 second delay gives
+    // window.history.back and forward to update before we load
+    // the location.
+    setTimeout(() => {
+      const uriLocation = window.location.hash.slice(1)
+      if (uriLocation.length === 0) {
+        this.retrieve('xxx')
+        return
+      }
 
-    if (uriLocation.length === 0) {
-      this.retrieve('xxx')
-      return
-    }
-
-    console.log('gotoUri:',uriLocation)
-    this.handleInput(uriLocation)
+      this.handleInput(uriLocation)
+    }, 100);
   }
 
+  /**
+   * Returns true if input is a valid 3-digit code
+   * @param string
+   * @returns boolean true if a valid location code
+   */
   validNumber = number => (/^\d{3}$|^\d{2}x$|^\dxx$|^x{3}$/.test(number))
 
   componentWillMount () {
