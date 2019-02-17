@@ -1,5 +1,5 @@
 import React from 'react'
-import { Home, ChevronsRight, ChevronRight } from 'react-feather'
+import { ChevronsRight, ChevronRight } from 'react-feather'
 
 function Entry ({ entry, showHome, currentLocation, handleClick }) {
   const unclickableWords = ['the', '&', 'and', 'to', 'of', 'in']
@@ -10,19 +10,6 @@ function Entry ({ entry, showHome, currentLocation, handleClick }) {
     <div className='result-row' key={item.id + item.number}>
       { (showHome || (path.length > 0)) ? (
         <p className='result-path'>
-          { showHome ? (
-            <React.Fragment>
-              <span
-                key='home'
-                onClick={() => handleClick('xxx')}
-                className='clickable home'
-              >
-                <Home />
-              </span>
-              <ChevronRight className='path-separator' />
-            </React.Fragment>
-          ) : null }
-
           {path.map((item, i, arr) => (
             <React.Fragment key={item.id + item.description}>
               <span

@@ -70,7 +70,6 @@ class App extends Component {
    * @param string input: a 3-digit location code or any string
    */
   handleInput = input => {
-    console.log('handleinput:', input)
     if (this.validNumber(input)) {
       this.retrieve(input)
     } else {
