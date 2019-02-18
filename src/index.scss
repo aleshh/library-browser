@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700');
-$primary-color: blue;
-$background-color: #fee;
 
 * {
     margin: 0;
@@ -42,7 +40,7 @@ a {
     top: 0;
     z-index: 1;
     height: 60px;
-    background-color: #ddd;
+    background-color: #eee;
     border-bottom: 1px solid gray;
     .brand {
         float: left;
@@ -57,9 +55,10 @@ a {
         padding: 18px 20px;
         border-right: 1px solid black;
         height: 100%;
+        transition: .3s all;
     }
     .button:hover {
-        background: #ccc;
+        background: #ddd;
         cursor: pointer;
     }
     .search {
@@ -71,8 +70,7 @@ a {
         background-color: #ddd;
         font-size: 18px;
         border: none;
-        background-color: #ccc;
-        border: 1px solid #ccc;
+        border: 1px solid #ddd;
         border-radius: 10px;
         padding: 5px 8px;
         transition: .3s all;
@@ -81,7 +79,7 @@ a {
 
 input[type=text]:focus {
     outline: none;
-    border: 1px solid black;
+    border: 1px solid #aaa;
 }
 
 .results {
@@ -90,7 +88,8 @@ input[type=text]:focus {
 }
 
 .result-path {
-    padding: 5px 25px;
+    padding: 5px 25px 10px;
+    border-top: 2px solid black;
     span {
         font-size: 12px;
         background-color: #eee;
@@ -106,13 +105,27 @@ input[type=text]:focus {
     }
 }
 
+.result-row:first-child .result-path {
+    border-top: none;
+}
+
 .result {
     font-size: 18px;
-    padding: 5px 25px;
+    padding: 10px 25px;
+    border-top: 1px solid #eee;
+}
+
+.result-row:last-child .result {
+    border-bottom: 1px solid #eee;
+}
+
+.result-clickable {
+    color: blue;
 }
 
 .result-hovered {
-    background-color: lightblue;
+    background-color: #eee;
+    color: blue;
     cursor: pointer;
 }
 

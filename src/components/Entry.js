@@ -23,6 +23,7 @@ class Entry extends Component {
     const unclickableWords = ['the', '&', 'and', 'to', 'of', 'in']
     const item = entry[entry.length - 1]
     const path = entry.slice(0, -1)
+    const itemClass = item.subordinates ?  'result result-clickable' : 'result'
 
     return (
       <div className='result-row' key={item.id + item.number}>
@@ -46,7 +47,10 @@ class Entry extends Component {
         ) : null }
 
         <p
-          className={(this.state.hover && item.subordinates) ? 'result result-hovered' : 'result'}
+          className={(this.state.hover && item.subordinates)
+            ? 'result result-hovered'
+            : itemClass
+          }
           onClick={() => {
             if (item.subordinates) {
               handleClick(item.id)
@@ -57,7 +61,6 @@ class Entry extends Component {
         >
           <span
             key={item.id}
-            className={item.subordinates ? 'clickable' : ''}
           >
             {item.number}
           </span>
