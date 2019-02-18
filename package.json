@@ -1,8 +1,8 @@
 {
   "name": "library-browser",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "homepage": "https://projects.alesh.com/library-browser/",
+  "homepage": "https://projects.alesh.com/wayfarer/",
   "dependencies": {
     "ddc-browser": "^0.1.1",
     "node-sass": "^4.11.0",
