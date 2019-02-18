@@ -111,6 +111,9 @@ input[type=text]:focus {
 .result {
     font-size: 18px;
 }
+.results .result-hovered {
+    background-color: lightblue;
+}
 
 .result svg {
     position: relative;

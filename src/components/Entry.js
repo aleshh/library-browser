@@ -1,84 +1,107 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { ChevronsRight, ChevronRight } from 'react-feather'
 
-function Entry ({ entry, showHome, currentLocation, handleClick }) {
-  const unclickableWords = ['the', '&', 'and', 'to', 'of', 'in']
-  const item = entry[entry.length - 1]
-  const path = entry.slice(0, -1)
+class Entry extends Component {
+  state = {
+    hover: false
+  }
 
-  return (
-    <div className='result-row' key={item.id + item.number}>
-      { (showHome || (path.length > 0)) ? (
-        <p className='result-path'>
-          {path.map((item, i, arr) => (
-            <React.Fragment key={item.id + item.description}>
-              <span
-                onClick={() => handleClick(item.id)}
-                className={(item.id !== currentLocation) ? 'clickable' : ''}
-              >
-                {item.number + ' ' + item.description}
-              </span>
-              { (i !== arr.length - 1)
-                ? <ChevronRight className='path-separator' />
-                : ''
-              }
-            </React.Fragment>
-          ))}
-        </p>
-      ) : null }
+  hoverStateOn = () => {
+    this.setState({
+      hover: true
+    })
+  }
 
-      <p>
-        <span
-          key={item.id}
-          onClick={() => {
-            if (item.subordinates) {
-              handleClick(item.id)
-            }
-          }}
-          className={item.subordinates ? 'result clickable' : 'result'}
-        >
-          {item.number}
-        </span>
-        &nbsp;&nbsp;
+  hoverStateOff = () => {
+    this.setState({
+      hover: false
+    })
+  }
 
-        {item.description.split(' ').map((word, id) => {
-          if (!unclickableWords.includes(word.toLowerCase())) {
-            const w = cleanupWord(word)
+  render () {
+    const { entry, showHome, currentLocation, handleClick } = this.props
+    const unclickableWords = ['the', '&', 'and', 'to', 'of', 'in']
+    const item = entry[entry.length - 1]
+    const path = entry.slice(0, -1)
 
-            return (
-              <span key={id + word + item.id}>
-                {w.pre}
+    return (
+      <div className='result-row' key={item.id + item.number}>
+        { (showHome || (path.length > 0)) ? (
+          <p className='result-path'>
+            {path.map((item, i, arr) => (
+              <React.Fragment key={item.id + item.description}>
                 <span
-                  className='clickable-word'
-                  onClick={() => handleClick(w.word)}
+                  onClick={() => handleClick(item.id)}
+                  className={(item.id !== currentLocation) ? 'clickable' : ''}
                 >
-                  {w.word}
+                  {item.number + ' ' + item.description}
                 </span>
-                {w.post + ' '}
-              </span>
-            )
-          } else {
-            return word + ' '
-          }
-        })}
+                { (i !== arr.length - 1)
+                  ? <ChevronRight className='path-separator' />
+                  : ''
+                }
+              </React.Fragment>
+            ))}
+          </p>
+        ) : null }
 
-        {item.subordinates
-          ? <span
-            key={'chevrons ' + item.id}
+        <p
+          className={this.state.hover ? 'result-hovered' : ''}
+          onMouseEnter={this.hoverStateOn}
+          onMouseLeave={this.hoverStateOff}
+        >
+          <span
+            key={item.id}
             onClick={() => {
               if (item.subordinates) {
                 handleClick(item.id)
               }
             }}
-            className='result clickable'
+            className={item.subordinates ? 'result clickable' : 'result'}
           >
-            <ChevronsRight />
+            {item.number}
           </span>
-          : ''
-        }
-      </p>
-    </div>
-  )
+          &nbsp;&nbsp;
+
+          {item.description.split(' ').map((word, id) => {
+            if (!unclickableWords.includes(word.toLowerCase())) {
+              const w = cleanupWord(word)
+
+              return (
+                <span key={id + word + item.id}>
+                  {w.pre}
+                  <span
+                    className='clickable-word'
+                    onClick={() => handleClick(w.word)}
+                  >
+                    {w.word}
+                  </span>
+                  {w.post + ' '}
+                </span>
+              )
+            } else {
+              return word + ' '
+            }
+          })}
+
+          {item.subordinates
+            ? <span
+              key={'chevrons ' + item.id}
+              onClick={() => {
+                if (item.subordinates) {
+                  handleClick(item.id)
+                }
+              }}
+              className='result clickable'
+            >
+              <ChevronsRight />
+            </span>
+            : ''
+          }
+        </p>
+      </div>
+    )
+  }
 }
 
 const cleanupWord = word => {
