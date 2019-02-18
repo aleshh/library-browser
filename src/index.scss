@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:500,600');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     font-size: 18px;
 }
 
@@ -47,7 +47,8 @@ a {
         padding: 19px 20px;
         border-right: 1px solid #bbb;
         height: 100%;
-        font-weight: 700;
+        font-weight: 600;
+        letter-spacing: .5px;
         cursor: default;
     }
     .button {
@@ -77,6 +78,32 @@ a {
     }
 }
 
+@media screen and (max-width: 618px) {
+    .navbar {
+        .brand {
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .navbar {
+        .button {
+            padding: 18px 8px;
+        }
+        .search {
+            padding-left: 8px;
+            label {
+                position: relative;
+                top: -2px;
+                font-size: 14px;
+            }
+            input {
+                width: 126px;
+            }
+        }
+    }
+}
+
 input[type=text]:focus {
     outline: none;
     border: 1px solid #aaa;
@@ -91,6 +118,8 @@ input[type=text]:focus {
     padding: 5px 25px 10px;
     border-top: 2px solid black;
     span {
+        text-transform: uppercase;
+        letter-spacing: .5px;
         font-size: 12px;
         background-color: #eee;
         border-radius: 3px;
@@ -113,6 +142,8 @@ input[type=text]:focus {
     font-size: 18px;
     padding: 10px 25px;
     border-top: 1px solid #eee;
+    background-color: #fff;
+    transition: .3s all;
 }
 
 .result-row:last-child .result {
