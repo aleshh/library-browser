@@ -19,14 +19,14 @@ class Entry extends Component {
   }
 
   render () {
-    const { entry, showHome, currentLocation, handleClick } = this.props
+    const { entry, currentLocation, handleClick } = this.props
     const unclickableWords = ['the', '&', 'and', 'to', 'of', 'in']
     const item = entry[entry.length - 1]
     const path = entry.slice(0, -1)
 
     return (
       <div className='result-row' key={item.id + item.number}>
-        { (showHome || (path.length > 0)) ? (
+        { (path.length > 0) ? (
           <p className='result-path'>
             {path.map((item, i, arr) => (
               <React.Fragment key={item.id + item.description}>
@@ -46,18 +46,18 @@ class Entry extends Component {
         ) : null }
 
         <p
-          className={this.state.hover ? 'result-hovered' : ''}
+          className={(this.state.hover && item.subordinates) ? 'result result-hovered' : 'result'}
+          onClick={() => {
+            if (item.subordinates) {
+              handleClick(item.id)
+            }
+          }}
           onMouseEnter={this.hoverStateOn}
           onMouseLeave={this.hoverStateOff}
         >
           <span
             key={item.id}
-            onClick={() => {
-              if (item.subordinates) {
-                handleClick(item.id)
-              }
-            }}
-            className={item.subordinates ? 'result clickable' : 'result'}
+            className={item.subordinates ? 'clickable' : ''}
           >
             {item.number}
           </span>
@@ -73,6 +73,8 @@ class Entry extends Component {
                   <span
                     className='clickable-word'
                     onClick={() => handleClick(w.word)}
+                    onMouseEnter={this.hoverStateOff}
+                    onMouseLeave={this.hoverStateOn}
                   >
                     {w.word}
                   </span>
@@ -92,7 +94,7 @@ class Entry extends Component {
                   handleClick(item.id)
                 }
               }}
-              className='result clickable'
+              className='clickable'
             >
               <ChevronsRight />
             </span>

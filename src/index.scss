@@ -50,6 +50,7 @@ a {
         border-right: 1px solid black;
         height: 100%;
         font-weight: 700;
+        cursor: default;
     }
     .button {
         float: left;
@@ -57,11 +58,10 @@ a {
         border-right: 1px solid black;
         height: 100%;
     }
-    .button:hover,  {
+    .button:hover {
         background: #ccc;
         cursor: pointer;
     }
-
     .search {
         float: left;
         padding-left: 20px;
@@ -78,6 +78,7 @@ a {
         transition: .3s all;
     }
 }
+
 input[type=text]:focus {
     outline: none;
     border: 1px solid black;
@@ -85,14 +86,11 @@ input[type=text]:focus {
 
 .results {
     margin-top: 60px;
-}
-
-.result-row {
-    padding: 5px 25px;
+    cursor: default;
 }
 
 .result-path {
-    margin-bottom: 10px;
+    padding: 5px 25px;
     span {
         font-size: 12px;
         background-color: #eee;
@@ -110,9 +108,12 @@ input[type=text]:focus {
 
 .result {
     font-size: 18px;
+    padding: 5px 25px;
 }
-.results .result-hovered {
+
+.result-hovered {
     background-color: lightblue;
+    cursor: pointer;
 }
 
 .result svg {
