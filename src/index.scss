@@ -110,6 +110,7 @@ input[type=text]:focus {
 }
 
 .results {
+    // background: white url("paper.png") repeat;
     margin-top: 60px;
     cursor: default;
 }
@@ -118,6 +119,7 @@ input[type=text]:focus {
     padding: 5px 25px 10px;
     border-top: 1px solid black;
     span {
+        display: inline-block;
         text-transform: uppercase;
         letter-spacing: .5px;
         font-size: 12px;
