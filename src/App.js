@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import Entry from './components/Entry'
 import Navbar from './components/Navbar'
-import DDC from 'ddc-browser'
+// import DDC from 'ddc-browser'
+import DDC from './ddc-browser'
 
 class App extends Component {
   constructor(props) {
